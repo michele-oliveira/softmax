@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { FaMoneyBill1Wave } from "react-icons/fa6";
 import {
   FaArrowRight,
@@ -672,11 +672,21 @@ const modulesData = [
 const ModulesPage = () => {
   const [activeModule, setActiveModule] = useState("vendas");
 
+  const location = useLocation();
+  const { target } = location.state || {};
+
   const handleModuleClick = (moduleId) => {
     if (activeModule !== moduleId) {
       setActiveModule(moduleId);
     }
   };
+
+  useEffect(() => {
+    if (target && modulesData.find((module) => module.id === target)) {
+      setActiveModule(target);
+      window.scrollTo(0, 0);
+    }
+  }, [target]);
 
   return (
     <>

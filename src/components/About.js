@@ -1,9 +1,19 @@
 import React from "react";
 import { FaRocket, FaCheckCircle } from "react-icons/fa";
 import software from "../assets/images/imagemnav1.jpg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const EmpresaInfo = () => {
+  const navigate = useNavigate();
+
+  const handleClickKnowMore = () => {
+    navigate("/modules", {
+      state: {
+        target: "compras",
+      },
+    });
+  };
+
   return (
     <>
       <div className="py-24 px-6 sm:px-12">
@@ -16,7 +26,7 @@ const EmpresaInfo = () => {
             A SoftMax está no mercado desde 2007, oferecendo soluções inovadoras
             e práticas para gestão administrativa, fabril e emissão de NF-e com
             total integração ao sistema. Simplifique seus processos e controle
-            tudo em um só lugar.
+            tudo em um só lugar.n
           </p>
 
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -60,7 +70,11 @@ const EmpresaInfo = () => {
                 prática do mercado, sem complicação e com total integração ao
                 seu sistema.
               </p>
-              <button className="bg-blue-500 text-white py-3 px-10 rounded-full mt-6 hover:bg-green-400 transition-all duration-300 ease-in-out transform hover:scale-105">
+              <button
+                type="button"
+                onClick={handleClickKnowMore}
+                className="bg-blue-500 text-white py-3 px-10 rounded-full mt-6 hover:bg-green-400 transition-all duration-300 ease-in-out transform hover:scale-105"
+              >
                 Quer saber mais?
               </button>
             </div>
