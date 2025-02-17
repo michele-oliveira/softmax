@@ -29,11 +29,11 @@ function Header() {
           <Link to="/modules">
             <h1 className="hover:text-green-400 cursor-pointer">Módulos</h1>
           </Link>
-          <Link to="/manual">
+          <a href="/manual" target="_blank">
             <h1 className="hover:text-green-400 cursor-pointer">
               Manual do sistema
             </h1>
-          </Link>
+          </a>
           <Link to="/contact">
             <h1 className="hover:text-green-400 cursor-pointer">Contato</h1>
           </Link>
