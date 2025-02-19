@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import ModulesPage from "./pages/ModulesPage";
-import Manual from "./pages/Manual";
+import Register from "./pages/manual/RegisterCarrier";
 import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/manual",
-    element: <Manual />,
+    element: <Register />,
   },
   {
     path: "/contact",
