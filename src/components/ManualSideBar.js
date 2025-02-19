@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { FiHome, FiMenu, FiChevronDown } from "react-icons/fi";
+import PropTypes from "prop-types";
+import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
 
 import softmax from "../assets/images/softmax1.png";
 
-function ManualSideBar() {
+function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(true);
   const [openSubmenus, setOpenSubmenus] = useState({});
 
@@ -15,6 +17,13 @@ function ManualSideBar() {
       ...prev,
       [menu]: !prev[menu],
     }));
+  };
+
+  const handleSelectPage = (page) => {
+    console.log("page", page);
+    console.log("selectPage", selectPage);
+    setIsOpen(false);
+    selectPage(page);
   };
 
   useEffect(() => {
@@ -110,21 +119,33 @@ function ManualSideBar() {
                   }`}
                 >
                   {[
-                    "Cadastro de Clientes",
-                    "Cadastro de Fornecedores",
-                    "Cadastro de Transportadoras",
-                    "Cadastro de Produtos PA",
-                    "Cadastro de Produtos MP",
-                    "Cadastro de Produto SA",
-                    "Cadastro de Produto OM",
-                    "Desenvolvimento de Produtos/Ensaio",
-                    "Cadastro de Operações Fiscais-CFOP",
+                    {
+                      label: "Cadastro de Clientes",
+                      page: ManualRegisterPage.CUSTOMER_REGISTRATION,
+                    },
+                    {
+                      label: "Cadastro de Fornecedores",
+                      page: ManualRegisterPage.SUPPLIER_REGISTRATION,
+                    },
+                    {
+                      label: "Cadastro de Transportadoras",
+                      page: ManualRegisterPage.CARRIER_REGISTRATION,
+                    },
+                    { label: "Cadastro de Produtos PA", page: "" },
+                    { label: "Cadastro de Produtos MP", page: "" },
+                    { label: "Cadastro de Produto SA", page: "" },
+                    { label: "Cadastro de Produto OM", page: "" },
+                    { label: "Desenvolvimento de Produtos/Ensaio", page: "" },
+                    { label: "Cadastro de Operações Fiscais-CFOP", page: "" },
                   ].map((item) => (
-                    <li
-                      key={item}
-                      className="p-2 text-base hover:bg-gray-500 rounded cursor-pointer"
-                    >
-                      {item}
+                    <li key={item.label}>
+                      <button
+                        type="button"
+                        onClick={() => handleSelectPage(item.page)}
+                        className="w-full p-2 text-base text-start hover:bg-gray-500 rounded"
+                      >
+                        {item.label}
+                      </button>
                     </li>
                   ))}
                 </ul>
@@ -241,5 +262,9 @@ function ManualSideBar() {
     </>
   );
 }
+
+ManualSideBar.propTypes = {
+  selectPage: PropTypes.func.isRequired,
+};
 
 export default ManualSideBar;
