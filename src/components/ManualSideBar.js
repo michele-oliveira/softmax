@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FiHome, FiMenu, FiChevronDown } from "react-icons/fi";
 
 import softmax from "../assets/images/softmax1.png";
@@ -6,6 +6,9 @@ import softmax from "../assets/images/softmax1.png";
 function ManualSideBar() {
   const [isOpen, setIsOpen] = useState(true);
   const [openSubmenus, setOpenSubmenus] = useState({});
+
+  const sidebarRef = useRef(null);
+  const menuButtonRef = useRef(null);
 
   const toggleSubmenu = (menu) => {
     setOpenSubmenus((prev) => ({
@@ -20,9 +23,33 @@ function ManualSideBar() {
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        sidebarRef.current &&
+        !sidebarRef.current.contains(event.target) &&
+        menuButtonRef.current &&
+        !menuButtonRef.current.contains(event.target)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
     <>
-      <div className="fixed left-7 top-4 z-50 transition-colors duration-300 ease-in-out">
+      <div
+        ref={menuButtonRef}
+        className="fixed left-7 top-4 z-50 transition-colors duration-300 ease-in-out"
+      >
         <button
           onClick={() => setIsOpen(!isOpen)}
           className={`text-2xl ${
@@ -35,6 +62,7 @@ function ManualSideBar() {
 
       <div className="flex">
         <div
+          ref={sidebarRef}
           className={`fixed top-0 left-0 h-full z-40 bg-slate-900 text-white transform transition-all duration-300 ease-in-out ${
             isOpen ? "w-72" : "w-0 xl:w-20"
           } overflow-hidden`}
