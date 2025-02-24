@@ -97,8 +97,10 @@ function OrderSales() {
             <b>Botão de Romaneio / Liberação de produtos;</b>
           </li>
           <li>
-            <b>Botão de Análise Crítica - </b> Aprovação e conferência de
-            pedidos;
+            <b>Botão de Romaneio / Liberação de produtos;</b>
+          </li>
+          <li>
+            <b>Botão de Junção - </b> Juntar pedidos em um único pedido;
           </li>
           <li>
             <b>Botão de ficha de separação - </b> Impressão de ficha, etiquetas;

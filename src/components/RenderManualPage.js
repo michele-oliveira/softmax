@@ -15,6 +15,8 @@ import OrderPurchase from "../pages/manual/OrderPurchase";
 import OrderSales from "../pages/manual/OrderSales";
 import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import ProductionOrder from "../pages/manual/ProductionOrder";
+import ProductionMap from "../pages/manual/ProductionMap";
+import InvoiceIssue from "../pages/manual/InvoiceIssue";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -44,6 +46,10 @@ function RenderManualPage({ page }) {
       return <OrderSales />;
     case ManualMovementsPage.PRODUCTION_ORDER:
       return <ProductionOrder />;
+    case ManualMovementsPage.PRODUCTION_MAP:
+      return <ProductionMap />;
+    case ManualMovementsPage.ISSUE_INVOICE:
+      return <InvoiceIssue />;
     default:
       return <h1>Page not found</h1>;
   }

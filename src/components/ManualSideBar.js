@@ -202,7 +202,7 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Mapa de Produção",
-                      page: {},
+                      page: ManualMovementsPage.PRODUCTION_MAP,
                     },
                     {
                       label: "Finan. Contas a Receber",
@@ -230,7 +230,7 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Emitir Nota Fiscal eletrônica NF-e",
-                      page: {},
+                      page: ManualMovementsPage.ISSUE_INVOICE,
                     },
                   ].map((item) => (
                     <li key={item.label}>

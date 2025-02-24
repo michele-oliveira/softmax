@@ -14,7 +14,6 @@ function SupplierRegistration() {
         fornecedores.
       </p>
       <p className="mx-4 mb-10 text-sm sm:text-base lg:max-w-4xl">
-        Integrado ao módulo de
         <b>O que é o cadastro de fornecedores?</b> Basicamente, trata-se de um
         controle em que são inseridas todas as pessoas físicas ou jurídicas que
         fornecem algum tipo de produto ou serviço para o seu negócio.
