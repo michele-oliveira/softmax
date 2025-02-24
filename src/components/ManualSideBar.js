@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
 
 import softmax from "../assets/images/softmax1.png";
+import { ManualPage } from "../enums/manual/ManualPage";
+import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 
 function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -20,10 +22,9 @@ function ManualSideBar({ selectPage }) {
   };
 
   const handleSelectPage = (page) => {
-    console.log("page", page);
-    console.log("selectPage", selectPage);
     setIsOpen(false);
     selectPage(page);
+    window.scroll({ top: 0, behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -96,6 +97,7 @@ function ManualSideBar({ selectPage }) {
                 <li>
                   <button
                     type="button"
+                    onClick={() => handleSelectPage(ManualPage.HOME_PAGE)}
                     className="w-full p-3 text-lg text-left text-nowrap font-bold hover:bg-gray-700 rounded"
                   >
                     Página inicial
@@ -131,12 +133,30 @@ function ManualSideBar({ selectPage }) {
                       label: "Cadastro de Transportadoras",
                       page: ManualRegisterPage.CARRIER_REGISTRATION,
                     },
-                    { label: "Cadastro de Produtos PA", page: "" },
-                    { label: "Cadastro de Produtos MP", page: "" },
-                    { label: "Cadastro de Produto SA", page: "" },
-                    { label: "Cadastro de Produto OM", page: "" },
-                    { label: "Desenvolvimento de Produtos/Ensaio", page: "" },
-                    { label: "Cadastro de Operações Fiscais-CFOP", page: "" },
+                    {
+                      label: "Cadastro de Produtos PA",
+                      page: ManualRegisterPage.PRODUCT_REGISTRATION,
+                    },
+                    {
+                      label: "Cadastro de Produtos MP",
+                      page: ManualRegisterPage.MP_REGISTRATION,
+                    },
+                    {
+                      label: "Cadastro de Produto SA",
+                      page: ManualRegisterPage.SA_REGISTRATION,
+                    },
+                    {
+                      label: "Cadastro de Produto OM",
+                      page: ManualRegisterPage.OM_REGISTRATION,
+                    },
+                    {
+                      label: "Desenvolvimento de Produtos/Ensaio",
+                      page: ManualRegisterPage.PRODUCT_DEVELOPMENT,
+                    },
+                    {
+                      label: "Cadastro de Operações Fiscais-CFOP",
+                      page: ManualRegisterPage.OPERATIONS_REGISTRATION,
+                    },
                   ].map((item) => (
                     <li key={item.label}>
                       <button
@@ -168,23 +188,59 @@ function ManualSideBar({ selectPage }) {
                   }`}
                 >
                   {[
-                    "Pedido de Venda",
-                    "Cadastro de Compra",
-                    "Empenho / Ordem de Produção",
-                    "Mapa de Produção",
-                    "Finan. Contas a Receber",
-                    "Finan. Contas a Pagar",
-                    "Finan. Controle de Cheques",
-                    "Finan. Controle Bancário",
-                    "Finan. Lança. Bancários CNAB",
-                    "Finan. Lança. Factory (Troca de títulos)",
-                    "Emitir Nota Fiscal eletrônica NF-e",
+                    {
+                      label: "Pedido de compra",
+                      page: ManualMovementsPage.PURCHASE_ORDER,
+                    },
+                    {
+                      label: "Pedido de venda",
+                      page: ManualMovementsPage.SALE_ORDER,
+                    },
+                    {
+                      label: "Empenho / Ordem de Produção",
+                      page: ManualMovementsPage.PRODUCTION_ORDER,
+                    },
+                    {
+                      label: "Mapa de Produção",
+                      page: {},
+                    },
+                    {
+                      label: "Finan. Contas a Receber",
+                      page: {},
+                    },
+                    {
+                      label: "Finan. Contas a Pagar",
+                      page: {},
+                    },
+                    {
+                      label: "Finan. Controle de Cheques",
+                      page: {},
+                    },
+                    {
+                      label: "Finan. Controle Bancário",
+                      page: {},
+                    },
+                    {
+                      label: "Finan. Lança. Bancários CNAB",
+                      page: {},
+                    },
+                    {
+                      label: "Finan. Lança. Factory (Troca de títulos)",
+                      page: {},
+                    },
+                    {
+                      label: "Emitir Nota Fiscal eletrônica NF-e",
+                      page: {},
+                    },
                   ].map((item) => (
-                    <li
-                      key={item}
-                      className="p-2 text-base hover:bg-gray-500 rounded cursor-pointer"
-                    >
-                      {item}
+                    <li key={item.label}>
+                      <button
+                        type="button"
+                        onClick={() => handleSelectPage(item.page)}
+                        className="w-full p-2 text-base text-start hover:bg-gray-500 rounded"
+                      >
+                        {item.label}
+                      </button>
                     </li>
                   ))}
                 </ul>
