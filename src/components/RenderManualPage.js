@@ -17,6 +17,12 @@ import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import ProductionOrder from "../pages/manual/ProductionOrder";
 import ProductionMap from "../pages/manual/ProductionMap";
 import InvoiceIssue from "../pages/manual/InvoiceIssue";
+import FactoryLaunch from "../pages/manual/FactoryLaunch";
+import ShippingCNAB from "../pages/manual/ShippingCNAB";
+import CheckControl from "../pages/manual/CheckControl";
+import BankingControl from "../pages/manual/BankingControl";
+import { ManualAcronyms } from "../enums/manual/ManualAcronyms";
+import Acronyms from "../pages/manual/Acronyms";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -50,6 +56,16 @@ function RenderManualPage({ page }) {
       return <ProductionMap />;
     case ManualMovementsPage.ISSUE_INVOICE:
       return <InvoiceIssue />;
+    case ManualMovementsPage.LAUNCH_FACTORY:
+      return <FactoryLaunch />;
+    case ManualMovementsPage.CNAB_SHIPPING:
+      return <ShippingCNAB />;
+    case ManualMovementsPage.CONTROL_CHECK:
+      return <CheckControl />;
+    case ManualMovementsPage.CONTROL_BANKING:
+      return <BankingControl />;
+    case ManualAcronyms.ACRONYMS:
+      return <Acronyms />;
     default:
       return <h1>Page not found</h1>;
   }

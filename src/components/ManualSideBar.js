@@ -6,6 +6,7 @@ import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
 import softmax from "../assets/images/softmax1.png";
 import { ManualPage } from "../enums/manual/ManualPage";
 import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
+import { ManualAcronyms } from "../enums/manual/ManualAcronyms";
 
 function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -214,19 +215,19 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Finan. Controle de Cheques",
-                      page: {},
+                      page: ManualMovementsPage.CONTROL_CHECK,
                     },
                     {
                       label: "Finan. Controle Bancário",
-                      page: {},
+                      page: ManualMovementsPage.CONTROL_BANKING,
                     },
                     {
                       label: "Finan. Lança. Bancários CNAB",
-                      page: {},
+                      page: ManualMovementsPage.CNAB_SHIPPING,
                     },
                     {
                       label: "Finan. Lança. Factory (Troca de títulos)",
-                      page: {},
+                      page: ManualMovementsPage.LAUNCH_FACTORY,
                     },
                     {
                       label: "Emitir Nota Fiscal eletrônica NF-e",
@@ -246,7 +247,11 @@ function ManualSideBar({ selectPage }) {
                 </ul>
 
                 <li className="p-3 text-lg text-nowrap font-bold hover:bg-gray-700 rounded">
-                  <button type="button" className="w-full text-left">
+                <button
+                    type="button"
+                    onClick={() => handleSelectPage(ManualAcronyms.ACRONYMS)}
+                    className="w-full text-lg text-left text-nowrap font-bold hover:bg-gray-700 rounded"
+                  >
                     Siglas
                   </button>
                 </li>
