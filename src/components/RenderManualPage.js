@@ -8,12 +8,9 @@ import RegisterProductA from "../pages/manual/RegisterProductA";
 import RegisterMP from "../pages/manual/RegisterMP";
 import RegisterSA from "../pages/manual/RegisterSA";
 import RegisterOM from "../pages/manual/RegisterOM";
-import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
-import { ManualPage } from "../enums/manual/ManualPage";
 import RegisterOperations from "../pages/manual/RegisterOperation";
 import OrderPurchase from "../pages/manual/OrderPurchase";
 import OrderSales from "../pages/manual/OrderSales";
-import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import ProductionOrder from "../pages/manual/ProductionOrder";
 import ProductionMap from "../pages/manual/ProductionMap";
 import InvoiceIssue from "../pages/manual/InvoiceIssue";
@@ -21,11 +18,15 @@ import FactoryLaunch from "../pages/manual/FactoryLaunch";
 import ShippingCNAB from "../pages/manual/ShippingCNAB";
 import CheckControl from "../pages/manual/CheckControl";
 import BankingControl from "../pages/manual/BankingControl";
-import { ManualAcronyms } from "../enums/manual/ManualAcronyms";
 import Acronyms from "../pages/manual/Acronyms";
-import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 import Taxpayer from "../pages/manual/Taxpayer";
 import TableCST from "../pages/manual/TableCST";
+import { ManualPage } from "../enums/manual/ManualPage";
+import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
+import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
+import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
+import AccountsPayable from "../pages/manual/AccountsPayable";
+import AccountsReceivable from "../pages/manual/AccountsReceivable";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -67,7 +68,11 @@ function RenderManualPage({ page }) {
       return <CheckControl />;
     case ManualMovementsPage.CONTROL_BANKING:
       return <BankingControl />;
-    case ManualAcronyms.ACRONYMS:
+    case ManualMovementsPage.ACCOUNTS_PAYABLE:
+      return <AccountsPayable />;
+    case ManualMovementsPage.ACCOUNTS_RECEIVABLE:
+      return <AccountsReceivable />;
+    case ManualPage.ACRONYMS:
       return <Acronyms />;
     case ManualTaxPage.TAX_DEPARTMENT:
       return <Taxpayer />;

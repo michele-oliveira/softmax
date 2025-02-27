@@ -8,4 +8,6 @@ export const ManualMovementsPage = {
   CNAB_SHIPPING: "cnab_shipping",
   CONTROL_CHECK: "control_check",
   CONTROL_BANKING: "control_banking",
+  ACCOUNTS_PAYABLE: "accounts_payable",
+  ACCOUNTS_RECEIVABLE: "accounts_receivable"
 };

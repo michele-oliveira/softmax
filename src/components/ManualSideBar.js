@@ -1,13 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { FiHome, FiMenu, FiChevronDown } from "react-icons/fi";
 import PropTypes from "prop-types";
+import { ManualPage } from "../enums/manual/ManualPage";
 import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
+import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
+import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 
 import softmax from "../assets/images/softmax1.png";
-import { ManualPage } from "../enums/manual/ManualPage";
-import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
-import { ManualAcronyms } from "../enums/manual/ManualAcronyms";
-import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 
 function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -208,11 +207,11 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Finan. Contas a Receber",
-                      page: {},
+                      page: ManualMovementsPage.ACCOUNTS_RECEIVABLE,
                     },
                     {
                       label: "Finan. Contas a Pagar",
-                      page: {},
+                      page: ManualMovementsPage.ACCOUNTS_PAYABLE,
                     },
                     {
                       label: "Finan. Controle de Cheques",
@@ -250,7 +249,7 @@ function ManualSideBar({ selectPage }) {
                 <li className="p-3 text-lg text-nowrap font-bold hover:bg-gray-700 rounded">
                 <button
                     type="button"
-                    onClick={() => handleSelectPage(ManualAcronyms.ACRONYMS)}
+                    onClick={() => handleSelectPage(ManualPage.ACRONYMS)}
                     className="w-full text-lg text-left text-nowrap font-bold hover:bg-gray-700 rounded"
                   >
                     Siglas
@@ -277,7 +276,7 @@ function ManualSideBar({ selectPage }) {
                   {[
                     {
                       label: "Tabela origem / CST / CSO",
-                      page: {}
+                      page: ManualTaxPage.TABLE_CST,
                     },
                     {
                       label: "Tabela CST PIS/COFINS",
