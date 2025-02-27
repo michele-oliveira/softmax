@@ -7,7 +7,7 @@ import production4 from "../../assets/images/manual/mov_empenho_estoque.png";
 function ProductionOrder() {
   return (
     <div className="flex flex-col items-center text-center px-4 py-6 lg:px-10 lg:py-12">
-      <h1 className="mx-4 mt-10 text-xl sm:text-2xl font-bold text-slate-900">
+      <h1 className="mx-4 mt-10 max-w-4xl text-xl sm:text-2xl font-bold text-slate-900">
         Softmax Treinamento – Módulo de Produção / Empenho Definição de Ordem de
         Produção na Indústria
       </h1>

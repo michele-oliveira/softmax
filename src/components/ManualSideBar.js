@@ -7,6 +7,7 @@ import softmax from "../assets/images/softmax1.png";
 import { ManualPage } from "../enums/manual/ManualPage";
 import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import { ManualAcronyms } from "../enums/manual/ManualAcronyms";
+import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 
 function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -274,20 +275,47 @@ function ManualSideBar({ selectPage }) {
                   }`}
                 >
                   {[
-                    "Tabela origem / CST / CSO",
-                    "Tabela CST PIS/COFINS",
-                    "Suspensão, Diferimento, Isenção, Incidência e Não Incidência",
-                    "Manual do Contribuinte v6.00",
-                    "Contribuinte, contribuinte isento e não contribuinte do ICMS",
-                    "Sefaz",
-                    "De olho no Imposto",
-                    "De olho no Imposto - Automatizar o processo",
+                    {
+                      label: "Tabela origem / CST / CSO",
+                      page: {}
+                    },
+                    {
+                      label: "Tabela CST PIS/COFINS",
+                      page: ManualTaxPage.TABLE_CST,
+                    },
+                    {
+                      label: "Suspensão, Diferimento, Isenção, Incidência e Não Incidência",
+                      page: {}
+                    },
+                    {
+                      label: "Manual do Contribuinte",
+                      page: {}
+                    },
+                    {
+                      label: "Contribuinte, contribuinte isento e não contribuinte do ICMS",
+                      page: ManualTaxPage.TAX_DEPARTMENT,
+                    },
+                    {
+                      label: "Sefaz",
+                      page: {}
+                    },
+                    {
+                      label: "De olho no Imposto",
+                      page: {}
+                    },
+                    {
+                      label: "De olho no Imposto - Automatizar o processo",
+                      page: {}
+                    },
                   ].map((item) => (
-                    <li
-                      key={item}
-                      className="p-2 text-base hover:bg-gray-500 rounded cursor-pointer"
-                    >
-                      {item}
+                    <li key={item.label}>
+                      <button
+                        type="button"
+                        onClick={() => handleSelectPage(item.page)}
+                        className="w-full p-2 text-base text-start hover:bg-gray-500 rounded"
+                      >
+                        {item.label}
+                      </button>
                     </li>
                   ))}
                 </ul>

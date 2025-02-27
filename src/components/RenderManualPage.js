@@ -23,6 +23,9 @@ import CheckControl from "../pages/manual/CheckControl";
 import BankingControl from "../pages/manual/BankingControl";
 import { ManualAcronyms } from "../enums/manual/ManualAcronyms";
 import Acronyms from "../pages/manual/Acronyms";
+import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
+import Taxpayer from "../pages/manual/Taxpayer";
+import TableCST from "../pages/manual/TableCST";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -66,6 +69,10 @@ function RenderManualPage({ page }) {
       return <BankingControl />;
     case ManualAcronyms.ACRONYMS:
       return <Acronyms />;
+    case ManualTaxPage.TAX_DEPARTMENT:
+      return <Taxpayer />;
+    case ManualTaxPage.TABLE_CST:
+      return <TableCST />;
     default:
       return <h1>Page not found</h1>;
   }
