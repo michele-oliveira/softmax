@@ -33,23 +33,14 @@ function TableConfins() {
               para o PIS/Pasep e a COFINS:
             </p>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <p>
-                      <strong>Código</strong>
-                    </p>
-                  </td>
-                  <td>
-                    <strong>Descrição</strong>
-                  </td>
-                  <td>
-                    <p>
-                      <strong>Incidência</strong>
-                      <strong> do Imposto</strong>
-                    </p>
-                  </td>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Incidência do Imposto</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>
                     <p>
@@ -100,7 +91,7 @@ function TableConfins() {
                       <strong>
                         Operação Tributável com Alíquota por Unidade de Medida
                         de Produto
-                      </strong>
+                      </strong>{" "}
                       (Quando o fabricante ou importador fez a opção pelos
                       regimes especiais de tributação como o RECOB ou o REFRI)
                     </p>
@@ -121,7 +112,7 @@ function TableConfins() {
                     <p>
                       <strong>
                         Operação Tributável Monofásica – Revenda a Alíquota Zero
-                      </strong>
+                      </strong>{" "}
                       (Receitas decorrentes da revenda de produtos que tiveram
                       sua tributação concentrada na etapa anterior, como por
                       exemplo bebidas frias, auto-peças, pneus, medicamentos…)
@@ -165,7 +156,7 @@ function TableConfins() {
                   </td>
                   <td>
                     <p>
-                      <strong>Operação Tributável a Alíquota Zero</strong>
+                      <strong>Operação Tributável a Alíquota Zero</strong>{" "}
                       (Operações cujas receitas estão sujeitas à alíquota zero
                       também na fabricação/importação e não somente na revenda)
                     </p>
@@ -201,7 +192,7 @@ function TableConfins() {
                   </td>
                   <td width={508}>
                     <p>
-                      <strong>Operação sem Incidência das Contribuições</strong>
+                      <strong>Operação sem Incidência das Contribuições</strong>{" "}
                       (Este CST também será utilizado para as receitas não
                       consideradas como faturamento no regime cumulativo;
                       exportação de mercadorias)
@@ -235,12 +226,11 @@ function TableConfins() {
                     <strong>49</strong>
                   </td>
                   <td>
-                    <strong>Outras Operações de Saída</strong>
-                    (Utilização deste CST para todas as saídas não
-                    representativas de receitas tais como: remessa para
-                    industrialização; remessa para conserto; remessa para
-                    demonstração; devolução de compras; transferências entre
-                    matriz e filiais…)
+                    <strong>Outras Operações de Saída</strong> (Utilização deste
+                    CST para todas as saídas não representativas de receitas
+                    tais como: remessa para industrialização; remessa para
+                    conserto; remessa para demonstração; devolução de compras;
+                    transferências entre matriz e filiais…)
                   </td>
                   <td width={109}>
                     <p>
@@ -268,22 +258,14 @@ function TableConfins() {
               7,6%, respectivamente):
             </p>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <p>
-                      <strong>Código</strong>
-                    </p>
-                  </td>
-                  <td>
-                    <strong>Descrição</strong>
-                  </td>
-                  <td>
-                    <p>
-                      <strong>Incidência do Imposto</strong>
-                    </p>
-                  </td>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Incidência do Imposto</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>
                     <p>
@@ -413,22 +395,14 @@ function TableConfins() {
               estabeleceu o crédito presumido):
             </p>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <p>
-                      <strong>Código</strong>
-                    </p>
-                  </td>
-                  <td>
-                    <strong>Descrição</strong>
-                  </td>
-                  <td>
-                    <p>
-                      <strong>Incidência do Imposto</strong>
-                    </p>
-                  </td>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Incidência do Imposto</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>
                     <p>
@@ -582,22 +556,14 @@ function TableConfins() {
               estabeleceu o crédito presumido):
             </p>
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <p>
-                      <strong>Código</strong>
-                    </p>
-                  </td>
-                  <td>
-                    <strong>Descrição</strong>
-                  </td>
-                  <td>
-                    <p>
-                      <strong>Incidência do Imposto</strong>
-                    </p>
-                  </td>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Incidência do Imposto</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>
                     <p>
@@ -755,19 +721,13 @@ function TableConfins() {
             </p>
 
             <table>
-              <tbody>
+              <thead>
                 <tr>
-                  <td>
-                    <p>
-                      <strong>Código</strong>
-                    </p>
-                  </td>
-                  <td>
-                    <p>
-                      <strong>Descrição</strong>
-                    </p>
-                  </td>
+                  <th>Código</th>
+                  <th>Descrição</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>
                     <p>
@@ -833,6 +793,12 @@ function TableConfins() {
               </tbody>
             </table>
             <table>
+              <thead>
+                <tr>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
                   <td>
