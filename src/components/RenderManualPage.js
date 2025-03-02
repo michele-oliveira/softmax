@@ -27,6 +27,7 @@ import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 import AccountsPayable from "../pages/manual/AccountsPayable";
 import AccountsReceivable from "../pages/manual/AccountsReceivable";
+import TableConfins from "../pages/manual/TableConfins";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -78,6 +79,8 @@ function RenderManualPage({ page }) {
       return <Taxpayer />;
     case ManualTaxPage.TABLE_CST:
       return <TableCST />;
+    case ManualTaxPage.TABLE_SOURCE:
+      return <TableConfins />;
     default:
       return <h1>Page not found</h1>;
   }

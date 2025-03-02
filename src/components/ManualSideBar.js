@@ -247,7 +247,7 @@ function ManualSideBar({ selectPage }) {
                 </ul>
 
                 <li className="p-3 text-lg text-nowrap font-bold hover:bg-gray-700 rounded">
-                <button
+                  <button
                     type="button"
                     onClick={() => handleSelectPage(ManualPage.ACRONYMS)}
                     className="w-full text-lg text-left text-nowrap font-bold hover:bg-gray-700 rounded"
@@ -280,31 +280,33 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Tabela CST PIS/COFINS",
-                      page: ManualTaxPage.TABLE_CST,
+                      page: ManualTaxPage.TABLE_SOURCE,
                     },
                     {
-                      label: "Suspensão, Diferimento, Isenção, Incidência e Não Incidência",
-                      page: {}
+                      label:
+                        "Suspensão, Diferimento, Isenção, Incidência e Não Incidência",
+                      page: {},
                     },
                     {
                       label: "Manual do Contribuinte",
-                      page: {}
+                      page: {},
                     },
                     {
-                      label: "Contribuinte, contribuinte isento e não contribuinte do ICMS",
+                      label:
+                        "Contribuinte, contribuinte isento e não contribuinte do ICMS",
                       page: ManualTaxPage.TAX_DEPARTMENT,
                     },
                     {
                       label: "Sefaz",
-                      page: {}
+                      page: {},
                     },
                     {
                       label: "De olho no Imposto",
-                      page: {}
+                      page: {},
                     },
                     {
                       label: "De olho no Imposto - Automatizar o processo",
-                      page: {}
+                      page: {},
                     },
                   ].map((item) => (
                     <li key={item.label}>
