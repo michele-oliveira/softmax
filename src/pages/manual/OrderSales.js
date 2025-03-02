@@ -46,76 +46,82 @@ function OrderSales() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Botão Incluir</b> - Criar Novo lançamento;
+            <strong>Botão Incluir</strong> - Criar Novo lançamento;
           </li>
           <li>
-            <b>Botão Alterar</b> - Realiza alterações em lançamentos já salvos
-            no sistema;
+            <strong>Botão Alterar</strong> - Realiza alterações em lançamentos
+            já salvos no sistema;
           </li>
           <li>
-            <b>Botão cancelar / Excluir</b>- Botão mult. opções, Remove baixa de
-            empenho, cancela lançamento, exclui lançamento;
+            <strong>Botão cancelar / Excluir</strong>- Botão mult. opções,
+            Remove baixa de empenho, cancela lançamento, exclui lançamento;
           </li>
           <li>
-            <b>Botão Salvar</b>- Salvar / Gravar lançamento
+            <strong>Botão Salvar</strong>- Salvar / Gravar lançamento
           </li>
           <li>
-            <b>Botão Cancelar / Abortar</b> - Cancela a operação vigente, ignora
-            alterações e retorno ao estado anterior;
+            <strong>Botão Cancelar / Abortar</strong> - Cancela a operação
+            vigente, ignora alterações e retorno ao estado anterior;
           </li>
           <li>
-            <b>Navegação;</b>
+            <strong>Navegação;</strong>
           </li>
           <li>
-            <b>Botão de pré-visualização/impressão </b> - impressão do pedido;
+            <strong>Botão de pré-visualização/impressão </strong> - impressão do
+            pedido;
           </li>
           <li>
-            <b>Botão de emissão de nota Fiscal;</b>
+            <strong>Botão de emissão de nota Fiscal;</strong>
           </li>
           <li>
-            <b>Botão de réplica de pedido;</b>
+            <strong>Botão de réplica de pedido;</strong>
           </li>
           <li>
-            <b>Botão de visualizar pedidos do cliente;</b>
+            <strong>Botão de visualizar pedidos do cliente;</strong>
           </li>
           <li>
-            <b>Botão de pré-visualização/impressão</b>- Impressão do pedido;
+            <strong>Botão de pré-visualização/impressão</strong>- Impressão do
+            pedido;
           </li>
           <li>
-            <b>Botão de emissão de Certificado;</b>
+            <strong>Botão de emissão de Certificado;</strong>
           </li>
           <li>
-            <b>Botão de abrir cadastro do cliente;</b>
+            <strong>Botão de abrir cadastro do cliente;</strong>
           </li>
           <li>
-            <b>Botão de abrir cadastro do produto;</b>
+            <strong>Botão de abrir cadastro do produto;</strong>
           </li>
           <li>
-            <b>Botão de Consulta de pedidos de vendas;</b>
+            <strong>Botão de Consulta de pedidos de vendas;</strong>
           </li>
           <li>
-            <b>Botão de Romaneio / Liberação de produtos;</b>
+            <strong>Botão de Romaneio / Liberação de produtos;</strong>
           </li>
           <li>
-            <b>Botão de Romaneio / Liberação de produtos;</b>
+            <strong>Botão de Romaneio / Liberação de produtos;</strong>
           </li>
           <li>
-            <b>Botão de Junção - </b> Juntar pedidos em um único pedido;
+            <strong>Botão de Junção - </strong> Juntar pedidos em um único
+            pedido;
           </li>
           <li>
-            <b>Botão de ficha de separação - </b> Impressão de ficha, etiquetas;
+            <strong>Botão de ficha de separação - </strong> Impressão de ficha,
+            etiquetas;
           </li>
           <li>
-            <b>Botão de Relatório;</b>
+            <strong>Botão de Relatório;</strong>
           </li>
           <li>
-            <b>Botão de Emissão de Nota fiscal de Devolução de venda;</b>
+            <strong>
+              Botão de Emissão de Nota fiscal de Devolução de venda;
+            </strong>
           </li>
           <li>
-            <b>Botão de gerenciador de arquivos;</b>
+            <strong>Botão de gerenciador de arquivos;</strong>
           </li>
           <li>
-            <b>Botão de Consulta CFOP / NCM;</b>
+            <strong>Botão de Consulta CFOP / NCM;</strong>
           </li>
         </ol>
       </div>
@@ -129,10 +135,10 @@ function OrderSales() {
         venda e que expressa as necessidades do cliente em produtos e serviços.
       </p>
       <p className="mt-10 text-base lg:max-w-4xl">
-        O <b>Pedido de Venda </b>consiste na confirmação do processo de venda
-        aberto por um Orçamento ou por pedidos gerados diretamente na rotina, ou
-        pelo módulo de acolhimento/ beneficiamento. Geralmente, as empresas
-        tratam os pedidos de venda de forma muito rigorosa, em detalhes
+        O <strong>Pedido de Venda </strong>consiste na confirmação do processo
+        de venda aberto por um Orçamento ou por pedidos gerados diretamente na
+        rotina, ou pelo módulo de acolhimento/ beneficiamento. Geralmente, as
+        empresas tratam os pedidos de venda de forma muito rigorosa, em detalhes
         minuciosos, pois, caso contrário, o pedido corre o risco de não ser
         faturado, gerando transtornos à empresa.
       </p>
@@ -150,141 +156,147 @@ function OrderSales() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Propostas Comerciais:</b> Ferramenta para criar e gerenciar
-            propostas de vendas personalizadas, incluindo preços, termos e
-            condições, para potenciais clientes.
+            <strong>Propostas Comerciais:</strong> Ferramenta para criar e
+            gerenciar propostas de vendas personalizadas, incluindo preços,
+            termos e condições, para potenciais clientes.
           </li>
           <li>
-            <b>Cadastro de Produtos:</b> Módulo para inserir e manter
+            <strong>Cadastro de Produtos:</strong> Módulo para inserir e manter
             informações detalhadas sobre os produtos ou serviços oferecidos,
             como descrições, preços e imagens.
           </li>
           <li>
-            <b>Gestão de Clientes: </b> Sistema para armazenar e organizar dados
-            dos clientes, incluindo informações de contato, histórico de compras
-            e preferências.
+            <strong>Gestão de Clientes: </strong> Sistema para armazenar e
+            organizar dados dos clientes, incluindo informações de contato,
+            histórico de compras e preferências.
           </li>
           <li>
-            <b>Análise de Crédito / Carteira de Crédito: </b>Módulo que avalia o
-            risco de crédito dos clientes antes de aprovar uma venda, levando em
-            conta o histórico de pagamentos, limite de crédito e situação
-            financeira. Também gerencia a carteira de crédito da empresa,
-            acompanhando saldos devedores e vencimentos.
+            <strong>Análise de Crédito / Carteira de Crédito: </strong>Módulo
+            que avalia o risco de crédito dos clientes antes de aprovar uma
+            venda, levando em conta o histórico de pagamentos, limite de crédito
+            e situação financeira. Também gerencia a carteira de crédito da
+            empresa, acompanhando saldos devedores e vencimentos.
           </li>
           <li>
-            <b>Análise Crítica:</b> Processo que envolve a avaliação detalhada
-            dos pedidos de venda para garantir que estejam de acordo com as
-            políticas da empresa, verificando a disponibilidade de estoque,
-            condições de pagamento, descontos aplicados e demais aspectos
-            críticos para aprovação final do pedido.
+            <strong>Análise Crítica:</strong> Processo que envolve a avaliação
+            detalhada dos pedidos de venda para garantir que estejam de acordo
+            com as políticas da empresa, verificando a disponibilidade de
+            estoque, condições de pagamento, descontos aplicados e demais
+            aspectos críticos para aprovação final do pedido.
           </li>
           <li>
-            <b>Emissão de Pedidos de Venda:</b> Processo para gerar e processar
-            pedidos de clientes, desde a seleção de produtos até a confirmação
-            do pedido.
+            <strong>Emissão de Pedidos de Venda:</strong> Processo para gerar e
+            processar pedidos de clientes, desde a seleção de produtos até a
+            confirmação do pedido.
           </li>
           <li>
-            <b>Processamento de Recebimento/Emissão de Boletos: </b> Ferramenta
-            para emitir boletos bancários e gerenciar o recebimento de
-            pagamentos de forma automatizada.
+            <strong>Processamento de Recebimento/Emissão de Boletos: </strong>{" "}
+            Ferramenta para emitir boletos bancários e gerenciar o recebimento
+            de pagamentos de forma automatizada.
           </li>
           <li>
-            <b>Emissão de Notas Fiscais:</b>Sistema que permite a geração de
-            notas fiscais eletrônicas, atendendo às exigências legais e fiscais.
+            <strong>Emissão de Notas Fiscais:</strong>Sistema que permite a
+            geração de notas fiscais eletrônicas, atendendo às exigências legais
+            e fiscais.
           </li>
           <li>
-            <b>Emissão de notas fiscais triangular:</b> Processo específico para
-            operações de venda em que há três partes envolvidas: o vendedor
-            (fornecedor), o destinatário (cliente final) e um terceiro que faz a
-            intermediação (transportadora ou distribuidor). A emissão de notas
-            fiscais triangular é utilizada para registrar corretamente a
-            movimentação dos produtos, de modo que o fornecedor envie
-            diretamente ao cliente final, mas o faturamento seja realizado para
-            o intermediário, cumprindo todas as obrigações fiscais dessa
+            <strong>Emissão de notas fiscais triangular:</strong> Processo
+            específico para operações de venda em que há três partes envolvidas:
+            o vendedor (fornecedor), o destinatário (cliente final) e um
+            terceiro que faz a intermediação (transportadora ou distribuidor). A
+            emissão de notas fiscais triangular é utilizada para registrar
+            corretamente a movimentação dos produtos, de modo que o fornecedor
+            envie diretamente ao cliente final, mas o faturamento seja realizado
+            para o intermediário, cumprindo todas as obrigações fiscais dessa
             operação.
           </li>
           <li>
-            <b>Listas de Preços:</b> Possibilidade de criar múltiplas tabelas de
-            preços para diferentes clientes, regiões ou campanhas promocionais.
+            <strong>Listas de Preços:</strong> Possibilidade de criar múltiplas
+            tabelas de preços para diferentes clientes, regiões ou campanhas
+            promocionais.
           </li>
           <li>
-            <b>Gestão de Estoque: </b>Monitoramento em tempo real dos níveis de
-            estoque, com alertas para reposição e controle de entradas e saídas
-            de produtos.
+            <strong>Gestão de Estoque: </strong>Monitoramento em tempo real dos
+            níveis de estoque, com alertas para reposição e controle de entradas
+            e saídas de produtos.
           </li>
           <li>
-            <b>Relatórios de Vendas:</b>Geração de relatórios detalhados que
-            auxiliam na análise de desempenho de vendas por período, produto,
-            vendedor, entre outros.
+            <strong>Relatórios de Vendas:</strong>Geração de relatórios
+            detalhados que auxiliam na análise de desempenho de vendas por
+            período, produto, vendedor, entre outros.
           </li>
           <li>
-            <b>Gestão de Vendedores e Comissões: </b>Controle sobre a equipe de
-            vendas, incluindo o cálculo automático de comissões baseadas nas
-            vendas realizadas.
+            <strong>Gestão de Vendedores e Comissões: </strong>Controle sobre a
+            equipe de vendas, incluindo o cálculo automático de comissões
+            baseadas nas vendas realizadas.
           </li>
           <li>
-            <b>Configuração de Promoções e Descontos:</b>Ferramenta para criar e
-            aplicar promoções especiais, cupons e descontos em produtos ou
-            serviços.
+            <strong>Configuração de Promoções e Descontos:</strong>Ferramenta
+            para criar e aplicar promoções especiais, cupons e descontos em
+            produtos ou serviços.
           </li>
           <li>
-            <b>Histórico de Vendas:</b> Registro completo de todas as transações
-            de venda realizadas, permitindo consultas e análises futuras.
+            <strong>Histórico de Vendas:</strong> Registro completo de todas as
+            transações de venda realizadas, permitindo consultas e análises
+            futuras.
           </li>
           <li>
-            <b>Devoluções e Reembolsos:</b> Módulo para gerenciar processos de
-            devolução de produtos e emissão de reembolsos aos clientes.
+            <strong>Devoluções e Reembolsos:</strong> Módulo para gerenciar
+            processos de devolução de produtos e emissão de reembolsos aos
+            clientes.
           </li>
           <li>
-            <b>Configuração de Preços: </b> Ajuste e gerenciamento dos preços
-            dos produtos, incluindo políticas de preços diferenciadas por
+            <strong>Configuração de Preços: </strong> Ajuste e gerenciamento dos
+            preços dos produtos, incluindo políticas de preços diferenciadas por
             cliente ou volume de compra.
           </li>
           <li>
-            <b>Gestão de Cotas de Vendas: </b> Definição e acompanhamento de
-            metas de vendas para a equipe ou individualmente, facilitando a
-            avaliação de desempenho.
+            <strong>Gestão de Cotas de Vendas: </strong> Definição e
+            acompanhamento de metas de vendas para a equipe ou individualmente,
+            facilitando a avaliação de desempenho.
           </li>
           <li>
-            <b>Análise de Performance de Vendas: </b>Ferramentas analíticas que
-            permitem avaliar o desempenho das vendas e identificar tendências ou
-            oportunidades.
+            <strong>Análise de Performance de Vendas: </strong>Ferramentas
+            analíticas que permitem avaliar o desempenho das vendas e
+            identificar tendências ou oportunidades.
           </li>
           <li>
-            <b>Automação de Processos de Vendas:</b>Implementação de fluxos de
-            trabalho automatizados para agilizar tarefas repetitivas e aumentar
-            a eficiência.
+            <strong>Automação de Processos de Vendas:</strong>Implementação de
+            fluxos de trabalho automatizados para agilizar tarefas repetitivas e
+            aumentar a eficiência.
           </li>
           <li>
-            <b>Integração com CRM: </b> Conexão com sistemas de gestão de
-            relacionamento com o cliente para sincronizar dados e melhorar a
+            <strong>Integração com CRM: </strong> Conexão com sistemas de gestão
+            de relacionamento com o cliente para sincronizar dados e melhorar a
             comunicação.
           </li>
           <li>
-            <b>Gestão de Contratos de Venda: </b> Armazenamento e gerenciamento
-            de contratos estabelecidos com clientes, incluindo termos,
-            renovações e compliance.
+            <strong>Gestão de Contratos de Venda: </strong> Armazenamento e
+            gerenciamento de contratos estabelecidos com clientes, incluindo
+            termos, renovações e compliance.
           </li>
           <li>
-            <b>Catálogo de Produtos:</b>Apresentação organizada dos produtos ou
-            serviços disponíveis, com detalhes que facilitam a seleção pelo
-            cliente.
+            <strong>Catálogo de Produtos:</strong>Apresentação organizada dos
+            produtos ou serviços disponíveis, com detalhes que facilitam a
+            seleção pelo cliente.
           </li>
           <li>
-            <b>Gestão de Impostos: </b> Cálculo automático e aplicação dos
-            impostos pertinentes em cada transação, conforme as legislações
+            <strong>Gestão de Impostos: </strong> Cálculo automático e aplicação
+            dos impostos pertinentes em cada transação, conforme as legislações
             vigentes.
           </li>
           <li>
-            <b>
+            <strong>
               Provisionamento de Produção, Indicação de Necessidade de
               Produção/Compra:{" "}
-            </b>{" "}
+            </strong>{" "}
             Sistema que identifica a necessidade de produzir ou adquirir mais
             produtos com base nas vendas e no estoque atual.
           </li>
           <li>
-            <b>Indicação de Itens para Produção (Explosão de Vendas): </b>
+            <strong>
+              Indicação de Itens para Produção (Explosão de Vendas):{" "}
+            </strong>
             Funcionalidade que detalha os componentes necessários para atender
             às vendas realizadas, auxiliando no planejamento de produção.
           </li>
@@ -302,9 +314,10 @@ function OrderSales() {
         alt="Desenvolvimento de Produtos e Ensaios"
       />
       <p className="my-6 text-base lg:max-w-4xl">
-        <b>Detalhes de Aprovação Financeira:</b> Permite verificar limite de
-        crédito, possíveis restrições, descontos e condições de pagamento de
-        cada cliente antes de aprovar efetivamente o pedido de venda.
+        <strong>Detalhes de Aprovação Financeira:</strong> Permite verificar
+        limite de crédito, possíveis restrições, descontos e condições de
+        pagamento de cada cliente antes de aprovar efetivamente o pedido de
+        venda.
       </p>
       <img
         className="w-full max-w-3xl object-contain"

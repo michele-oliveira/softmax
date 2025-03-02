@@ -28,47 +28,48 @@ function RegisterMP() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Botão Incluir -</b> Criar Novo lançamento;
+            <strong>Botão Incluir -</strong> Criar Novo lançamento;
           </li>
           <li>
-            <b>Botão Alterar -</b> Alterar / Editar um lançamento salvo;
+            <strong>Botão Alterar -</strong> Alterar / Editar um lançamento
+            salvo;
           </li>
           <li>
-            <b>Botão cancelar / Excluir -</b> Botão cancelar;
+            <strong>Botão cancelar / Excluir -</strong> Botão cancelar;
           </li>
           <li>
-            <b>Botão Salvar -</b> Salvar / Gravar lançamento
+            <strong>Botão Salvar -</strong> Salvar / Gravar lançamento
           </li>
           <li>
-            <b>Botão Cancelar / Abortar -</b> Cancela a operação vigente, ignora
-            alterações e retorno ao estado anterior;
+            <strong>Botão Cancelar / Abortar -</strong> Cancela a operação
+            vigente, ignora alterações e retorno ao estado anterior;
           </li>
           <li>
-            <b>Botão Navegação ;</b>
+            <strong>Botão Navegação ;</strong>
           </li>
           <li>
-            <b>Botão Navegação ;</b> 
+            <strong>Botão Navegação ;</strong>
           </li>
           <li>
-            <b>Botão Navegação ;</b> 
+            <strong>Botão Navegação ;</strong>
           </li>
           <li>
-            <b>Botão Navegação ;</b> 
+            <strong>Botão Navegação ;</strong>
           </li>
           <li>
-            <b>Botão de emissão de relatórios; </b>
+            <strong>Botão de emissão de relatórios; </strong>
           </li>
           <li>
-            <b>Botão de gerenciador de arquivos ;</b> 
+            <strong>Botão de gerenciador de arquivos ;</strong>
           </li>
           <li>
-            <b>Botão de cadastro de Fornecedores;</b> 
+            <strong>Botão de cadastro de Fornecedores;</strong>
           </li>
           <li>
-            <b>Botão de etiquetas;</b> 
+            <strong>Botão de etiquetas;</strong>
           </li>
           <li>
-            <b>Botão de réplica ;</b> 
+            <strong>Botão de réplica ;</strong>
           </li>
         </ol>
       </div>
@@ -79,49 +80,51 @@ function RegisterMP() {
         alt="Cadastro MP - Matéria Prima"
       />
 
-<div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
+      <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Guia Cadastro – </b> Cadastro principal com dados da Matéria-prima;
+            <strong>Guia Cadastro – </strong> Cadastro principal com dados da
+            Matéria-prima;
           </li>
           <li>
-            <b>Guia Especificações –</b> Informações Complementares;
+            <strong>Guia Especificações –</strong> Informações Complementares;
           </li>
           <li>
-            <b>Guia  Histórico – </b> Cadastro de observações;
+            <strong>Guia Histórico – </strong> Cadastro de observações;
           </li>
           <li>
-            <b>Guia Fornecedores;</b>
+            <strong>Guia Fornecedores;</strong>
           </li>
           <li>
-            <b>Guia Estoque;</b>
+            <strong>Guia Estoque;</strong>
           </li>
           <li>
-            <b>Guia Lotes – </b>Controle de Lotes
+            <strong>Guia Lotes – </strong>Controle de Lotes
           </li>
           <li>
-            <b>Guia Requisitos;</b> 
+            <strong>Guia Requisitos;</strong>
           </li>
           <li>
-            <b>Guia utilização em Fórmula; </b> 
+            <strong>Guia utilização em Fórmula; </strong>
           </li>
           <li>
-            <b>Guia Compras – </b> lista de Compras;
+            <strong>Guia Compras – </strong> lista de Compras;
           </li>
           <li>
-            <b>Guia Empenhos – </b>lista de produtos que estão em Produção;
+            <strong>Guia Empenhos – </strong>lista de produtos que estão em
+            Produção;
           </li>
           <li>
-            <b>Guia indicações/ Aplicações;</b> 
+            <strong>Guia indicações/ Aplicações;</strong>
           </li>
           <li>
-            <b>Botão de cadastro de Fornecedores;</b> 
+            <strong>Botão de cadastro de Fornecedores;</strong>
           </li>
           <li>
-            <b>Guia teste de Matéria-prima;</b> 
+            <strong>Guia teste de Matéria-prima;</strong>
           </li>
           <li>
-            <b>Guia Cotação – </b> Guia com Cotações com Fornecedores;
+            <strong>Guia Cotação – </strong> Guia com Cotações com Fornecedores;
           </li>
         </ol>
       </div>

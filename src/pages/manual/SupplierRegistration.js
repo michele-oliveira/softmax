@@ -9,16 +9,16 @@ function SupplierRegistration() {
         Manual do Sistema - Cadastro de Fornecedores
       </h1>
       <p className="mx-4 my-6 text-sm sm:text-base lg:max-w-4xl">
-        O programa <b>Maxcontrol</b> oferece um formulário de cadastro de
-        fornecedores completo para melhor organizar e adquirir os dados de seus
-        fornecedores.
+        O programa <strong>Maxcontrol</strong> oferece um formulário de cadastro
+        de fornecedores completo para melhor organizar e adquirir os dados de
+        seus fornecedores.
       </p>
       <p className="mx-4 mb-10 text-sm sm:text-base lg:max-w-4xl">
-        <b>O que é o cadastro de fornecedores?</b> Basicamente, trata-se de um
-        controle em que são inseridas todas as pessoas físicas ou jurídicas que
-        fornecem algum tipo de produto ou serviço para o seu negócio.
-        Independentemente do que é disponibilizado, o fornecedor precisa ser
-        cadastrado para facilitar a gestão.
+        <strong>O que é o cadastro de fornecedores?</strong> Basicamente,
+        trata-se de um controle em que são inseridas todas as pessoas físicas ou
+        jurídicas que fornecem algum tipo de produto ou serviço para o seu
+        negócio. Independentemente do que é disponibilizado, o fornecedor
+        precisa ser cadastrado para facilitar a gestão.
       </p>
 
       <img
@@ -35,42 +35,44 @@ function SupplierRegistration() {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left px-4">
         <p className="text-sm pt-2">
-          <b>1-Botão Incluir-</b> Criar Novo lançamento;
+          <strong>1-Botão Incluir-</strong> Criar Novo lançamento;
         </p>
         <p className="text-sm pt-1">
-          <b>2-Botão Alterar -</b> Alterar / Editar um lançamento salvo;
+          <strong>2-Botão Alterar -</strong> Alterar / Editar um lançamento
+          salvo;
         </p>
         <p className="text-sm pt-1">
-          <b>3-Botão cancelar / Excluir -</b> Botão mult. opções, Remove baixa
-          de empenho, cancela lançamento, exclui lançamento;
+          <strong>3-Botão cancelar / Excluir -</strong> Botão mult. opções,
+          Remove baixa de empenho, cancela lançamento, exclui lançamento;
         </p>
         <p className="text-sm pt-1">
-          <b>4-Botão Salvar - </b> Salvar / Gravar lançamento
+          <strong>4-Botão Salvar - </strong> Salvar / Gravar lançamento
         </p>
         <p className="text-sm pt-1">
-          <b>5-Botão Cancelar / Abortar - </b> Cancela a operação vigente,
-          ignora alterações e retorno ao estado anterior;
+          <strong>5-Botão Cancelar / Abortar - </strong> Cancela a operação
+          vigente, ignora alterações e retorno ao estado anterior;
         </p>
         <p className="text-sm pt-1">
-          <b>6-Navegação ;</b>
+          <strong>6-Navegação ;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>7-Navegação ;</b>
+          <strong>7-Navegação ;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>8-Navegação ;</b>
+          <strong>8-Navegação ;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>9-Navegação ;</b>
+          <strong>9-Navegação ;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>10-Botão de pré-visualização/impressão -</b> impressão do cadastro;
+          <strong>10-Botão de pré-visualização/impressão -</strong> impressão do
+          cadastro;
         </p>
         <p className="text-sm pt-1">
-          <b>11-Botão de emissão de relatórios;</b>
+          <strong>11-Botão de emissão de relatórios;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>12-Botão de gerenciador de arquivos ;</b>
+          <strong>12-Botão de gerenciador de arquivos ;</strong>
         </p>
       </div>
 
@@ -82,53 +84,55 @@ function SupplierRegistration() {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-10 px-4">
         <p className="text-sm">
-          <b>Guia Cadastro</b>
+          <strong>Guia Cadastro</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Dados Adicionais </b>
+          <strong>Guia Dados Adicionais </strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Itens Fornecidos</b>
+          <strong>Guia Itens Fornecidos</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia ABC de Produtos – </b> Guia com lista de produtos já
+          <strong>Guia ABC de Produtos – </strong> Guia com lista de produtos já
           adquiridos.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia compras – </b> Guia com lista de compras já feitas ao
+          <strong>Guia compras – </strong> Guia com lista de compras já feitas
+          ao fornecedor.
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Notas Fiscais</strong>
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia IQF </strong>
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Histórico – </strong> Cadastro de informações do
+          fornecedor , LOG referente a troca de informações com fornecedor. Para
+          adição e alteração seguir passos da Guia cadastro..
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Financeiro – </strong>Guia com dados dos títulos a pagar
+          ao fornecedor.
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Contatos – </strong> Cadastro de responsáveis pela
+          empresa fornecedora. Para adição e alteração seguir passos da Guia
+          cadastro.
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Avaliação de Fornecedor – </strong>Definição do tipo de
           fornecedor.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Notas Fiscais</b>
+          <strong>Guia Qualificação de Fornecedor – </strong>Definição dos
+          requisitos que devem ser atendidos para compra.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia IQF </b>
+          <strong>Guia tabela de preços</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Histórico – </b> Cadastro de informações do fornecedor , LOG
-          referente a troca de informações com fornecedor. Para adição e
-          alteração seguir passos da Guia cadastro..
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Financeiro – </b>Guia com dados dos títulos a pagar ao
-          fornecedor.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Contatos – </b> Cadastro de responsáveis pela empresa
-          fornecedora. Para adição e alteração seguir passos da Guia cadastro.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Avaliação de Fornecedor – </b>Definição do tipo de fornecedor.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Qualificação de Fornecedor – </b>Definição dos requisitos que
-          devem ser atendidos para compra.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia tabela de preços</b>
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Emails</b>
+          <strong>Guia Emails</strong>
         </p>
       </div>
     </div>

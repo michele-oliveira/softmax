@@ -49,10 +49,12 @@ function RegisterPA() {
       />
 
       <p className="pt-10 text-lg font-bold">Quanto custa o seu produto?</p>
-      <p className="my-4 text-base lg:max-w-4xl">Com o MaxControl, você tem acesso a formação de preço detalhada de
-            seu produto final, associado com a formulação do produto (listagem
-            das matérias primas envolvidas no processo de produção - citada
-            acima) disponibiza-se:</p>
+      <p className="my-4 text-base lg:max-w-4xl">
+        Com o MaxControl, você tem acesso a formação de preço detalhada de seu
+        produto final, associado com a formulação do produto (listagem das
+        matérias primas envolvidas no processo de produção - citada acima)
+        disponibiza-se:
+      </p>
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
@@ -71,63 +73,65 @@ function RegisterPA() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Botão Incluir -</b> Criar Novo lançamento;
+            <strong>Botão Incluir -</strong> Criar Novo lançamento;
           </li>
           <li>
-            <b>Botão Alterar -</b> Alterar / Editar um lançamento salvo;
+            <strong>Botão Alterar -</strong> Alterar / Editar um lançamento
+            salvo;
           </li>
           <li>
-            <b>Botão cancelar / Excluir -</b> Botão mult. opções, Remove baixa
-            de empenho, cancela lançamento, exclui lançamento;
+            <strong>Botão cancelar / Excluir -</strong> Botão mult. opções,
+            Remove baixa de empenho, cancela lançamento, exclui lançamento;
           </li>
           <li>
-            <b>Botão Salvar -</b> Salvar / Gravar lançamento;
+            <strong>Botão Salvar -</strong> Salvar / Gravar lançamento;
           </li>
           <li>
-            <b>Botão Cancelar / Abortar -</b> Cancela a operação vigente, ignora
-            alterações e retorno ao estado anterior;
+            <strong>Botão Cancelar / Abortar -</strong> Cancela a operação
+            vigente, ignora alterações e retorno ao estado anterior;
           </li>
           <li>
-            <b>Botão Réplica de produto -</b> Abre módulo de pedido de venda;
+            <strong>Botão Réplica de produto -</strong> Abre módulo de pedido de
+            venda;
           </li>
           <li>
-            <b>Botão de importar cadastro -</b> Abre módulo de cadastro de
-            produtos;
+            <strong>Botão de importar cadastro -</strong> Abre módulo de
+            cadastro de produtos;
           </li>
           <li>
-            <b>Botão de cadastro de amostra;</b>
+            <strong>Botão de cadastro de amostra;</strong>
           </li>
           <li>
-            <b>Botão de cadastro de desenvolvimento de produtos;</b>
+            <strong>Botão de cadastro de desenvolvimento de produtos;</strong>
           </li>
           <li>
-            <b>Botão de matéria prima;</b>
+            <strong>Botão de matéria prima;</strong>
           </li>
           <li>
-            <b>Botão de etiquetas;</b>
+            <strong>Botão de etiquetas;</strong>
           </li>
           <li>
-            <b>
+            <strong>
               Botão de pré-visualização/impressão de certificado de análise;
-            </b>
+            </strong>
           </li>
           <li>
-            <b>Botão de emissão de relatórios;</b>
+            <strong>Botão de emissão de relatórios;</strong>
           </li>
           <li>
-            <b>Botão de gerenciador de arquivos;</b>
+            <strong>Botão de gerenciador de arquivos;</strong>
           </li>
           <li>
-            <b>Botão de lista de fórmulas;</b>
+            <strong>Botão de lista de fórmulas;</strong>
           </li>
           <li>
-            <b>Botão de abrir Produtos;</b>
+            <strong>Botão de abrir Produtos;</strong>
           </li>
           <li>
-            <b>Botão de inventário;</b>
+            <strong>Botão de inventário;</strong>
           </li>
           <li>
-            <b>Botão de lista de Produtos x Moldes;</b>
+            <strong>Botão de lista de Produtos x Moldes;</strong>
           </li>
         </ol>
       </div>
@@ -141,70 +145,90 @@ function RegisterPA() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Guia Cadastro -</b> Cadastro principal com dados dos produtos
-            acabados ( produtos finais, já produzidos);
+            <strong>Guia Cadastro -</strong> Cadastro principal com dados dos
+            produtos acabados ( produtos finais, já produzidos);
           </li>
           <li>
-            <b>Guia Inf. adicionais -</b> Informações Complementares;
+            <strong>Guia Inf. adicionais -</strong> Informações Complementares;
           </li>
           <li>
-            <b>Guia Orientações Técnicas;</b>
+            <strong>Guia Orientações Técnicas;</strong>
           </li>
           <li>
-            <b>Guia Histórico -</b> Cadastro de observações;
+            <strong>Guia Histórico -</strong> Cadastro de observações;
           </li>
           <li>
-            <b>Guia Estoque;</b> 
+            <strong>Guia Estoque;</strong>
           </li>
           <li>
-            <b>Guia Fórmula -</b> A formulação é o processo em que combinamos uma variedade de diversos produtos ( MP,SA,PA) em proporções precisas a fim de criar um produto específico;
+            <strong>Guia Fórmula -</strong> A formulação é o processo em que
+            combinamos uma variedade de diversos produtos ( MP,SA,PA) em
+            proporções precisas a fim de criar um produto específico;
           </li>
           <li>
-            <b>Guia Formação de preço - </b>A formação do preço de venda é um processo de análise e formulação do preço de produtos ou serviços, através da contabilização de todos os custos e despesas da empresa e na análise de preço absorvível pelo mercado. O preço de venda ideal está entre o preço que cobre as despesas e custos do negócio, atende a margem de lucro desejada e é aceito pelo mercado;
+            <strong>Guia Formação de preço - </strong>A formação do preço de
+            venda é um processo de análise e formulação do preço de produtos ou
+            serviços, através da contabilização de todos os custos e despesas da
+            empresa e na análise de preço absorvível pelo mercado. O preço de
+            venda ideal está entre o preço que cobre as despesas e custos do
+            negócio, atende a margem de lucro desejada e é aceito pelo mercado;
           </li>
           <li>
-            <b>Guia Custos de Produção - </b>Os custos de produção incluem todas as despesas necessárias para fabricar um produto ou prestar um serviço, desde o custo da matéria-prima até o custo da mão-de-obra;
+            <strong>Guia Custos de Produção - </strong>Os custos de produção
+            incluem todas as despesas necessárias para fabricar um produto ou
+            prestar um serviço, desde o custo da matéria-prima até o custo da
+            mão-de-obra;
           </li>
           <li>
-            <b>Guia Produção - </b> Guia com dados de produtos em produção;
+            <strong>Guia Produção - </strong> Guia com dados de produtos em
+            produção;
           </li>
           <li>
-            <b>Guia Reajuste de preço;</b>
+            <strong>Guia Reajuste de preço;</strong>
           </li>
           <li>
-            <b>
-            Guia Empenho -
-            </b>lista de produtos que estão em Produção;
+            <strong>Guia Empenho -</strong>lista de produtos que estão em
+            Produção;
           </li>
           <li>
-            <b>Guia Lotes - </b>Controle de Lotes;
+            <strong>Guia Lotes - </strong>Controle de Lotes;
           </li>
           <li>
-            <b>Guia Pedidos - </b>Guia com lista de produtos já adquiridos;
+            <strong>Guia Pedidos - </strong>Guia com lista de produtos já
+            adquiridos;
           </li>
           <li>
-            <b>Guia Mapa de Produção - </b>O Mapa de Produção é uma ferramenta também conhecida como Planejamento e Controle de Produção (PCP) a fim de planejar a produção deste a compra das matérias primas, a utilização dos equipamentos, recursos humanos, dimensionamento, estrutura de produção, quantidade a ser produzida com base nas vendas ou conforme a necessidade e quantidade que atenderá ao cliente;
+            <strong>Guia Mapa de Produção - </strong>O Mapa de Produção é uma
+            ferramenta também conhecida como Planejamento e Controle de Produção
+            (PCP) a fim de planejar a produção deste a compra das matérias
+            primas, a utilização dos equipamentos, recursos humanos,
+            dimensionamento, estrutura de produção, quantidade a ser produzida
+            com base nas vendas ou conforme a necessidade e quantidade que
+            atenderá ao cliente;
           </li>
           <li>
-            <b>Guia RNC - </b>As RNC registram os desvios ocorridos na produção dos processos, produtos ou serviços e é uma ferramenta básica para indicar os pontos fracos e fortes da sua empresa;
+            <strong>Guia RNC - </strong>As RNC registram os desvios ocorridos na
+            produção dos processos, produtos ou serviços e é uma ferramenta
+            básica para indicar os pontos fracos e fortes da sua empresa;
           </li>
           <li>
-            <b>Guia Fornecedores;</b>
+            <strong>Guia Fornecedores;</strong>
           </li>
           <li>
-            <b>Guia Compras - </b>lista de Compras;
+            <strong>Guia Compras - </strong>lista de Compras;
           </li>
           <li>
-            <b>Guia Imagines/Fotos; </b>
+            <strong>Guia Imagines/Fotos; </strong>
           </li>
           <li>
-            <b>Guia indicações/ Aplicações;</b>
+            <strong>Guia indicações/ Aplicações;</strong>
           </li>
           <li>
-            <b>Guia Cotação - </b>Guia com Cotações abertas pelo cliente;
+            <strong>Guia Cotação - </strong>Guia com Cotações abertas pelo
+            cliente;
           </li>
           <li>
-            <b>Guia Local de Estoque;</b>
+            <strong>Guia Local de Estoque;</strong>
           </li>
         </ol>
       </div>

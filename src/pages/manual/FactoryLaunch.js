@@ -24,24 +24,24 @@ function FactoryLaunch() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Seleção de um fornecedor previamente cadastrado.</b>
+            <strong>Seleção de um fornecedor previamente cadastrado.</strong>
           </li>
           <li>
-            <b>Inserção dos títulos a serem negociados.</b>
+            <strong>Inserção dos títulos a serem negociados.</strong>
           </li>
           <li>
-            <b>
+            <strong>
               Definição de condições como tipo de cobrança, conta de depósito e
               data de liquidação.
-            </b>
+            </strong>
           </li>
           <li>
-            <b>
+            <strong>
               Geração de relatórios (exemplo: Borderô de troca de títulos).{" "}
-            </b>
+            </strong>
           </li>
           <li>
-            <b>Exportação de XMLs das notas fiscais associadas. </b>
+            <strong>Exportação de XMLs das notas fiscais associadas. </strong>
           </li>
         </ol>
       </div>
@@ -57,16 +57,20 @@ function FactoryLaunch() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Busquem fornecedores e insiram os títulos para troca.</b>
+            <strong>
+              Busquem fornecedores e insiram os títulos para troca.
+            </strong>
           </li>
           <li>
-            <b>Configurem os detalhes da operação.</b>
+            <strong>Configurem os detalhes da operação.</strong>
           </li>
           <li>
-            <b>Gerem relatórios e documentos fiscais.</b>
+            <strong>Gerem relatórios e documentos fiscais.</strong>
           </li>
           <li>
-            <b>Finalizem a operação e exportem os dados necessários.</b>
+            <strong>
+              Finalizem a operação e exportem os dados necessários.
+            </strong>
           </li>
         </ol>
       </div>
@@ -136,16 +140,16 @@ function FactoryLaunch() {
             Ferramentas
           </p>
           <li>
-            <b>Impressão do Borderô</b>
+            <strong>Impressão do Borderô</strong>
           </li>
           <li>
-            <b>Finalizar Operação</b>
+            <strong>Finalizar Operação</strong>
           </li>
           <li>
-            <b>Exportar XMLs</b>
+            <strong>Exportar XMLs</strong>
           </li>
           <li>
-            <b>Informar Custo de Operação de troca de títulos </b>
+            <strong>Informar Custo de Operação de troca de títulos </strong>
           </li>
         </ol>
       </div>

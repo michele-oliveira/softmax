@@ -41,7 +41,7 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Identificação do Produto</b>
+            <strong>Identificação do Produto</strong>
           </li>
           <p>
             <i>Código do Produto:</i> Número único que identifica o item a ser
@@ -52,14 +52,14 @@ function ProductionOrder() {
             características.
           </p>
           <li>
-            <b>Quantidade a Produzir</b>
+            <strong>Quantidade a Produzir</strong>
           </li>
           <p>
             <i>Número de Unidades:</i> Total de itens que devem ser fabricados
             conforme a demanda ou previsão de vendas.
           </p>
           <li>
-            <b>Datas Importantes</b>
+            <strong>Datas Importantes</strong>
           </li>
           <p>
             <i>Data de Emissão:</i> Quando a ordem foi criada.
@@ -72,7 +72,7 @@ function ProductionOrder() {
             ser concluída.
           </p>
           <li>
-            <b>Lista de Materiais (Bill of Materials - BOM)</b>
+            <strong>Lista de Materiais (Bill of Materials - BOM)</strong>
           </li>
           <p>
             <i>Matérias-Primas e Componentes: </i> Detalhamento de todos os
@@ -87,7 +87,7 @@ function ProductionOrder() {
             serem utilizados.
           </p>
           <li>
-            <b>Processos e Operações</b>
+            <strong>Processos e Operações</strong>
           </li>
           <p>
             <i>Sequência de Produção: </i> Passo a passo das etapas que devem
@@ -98,7 +98,7 @@ function ProductionOrder() {
             qualidade e requisitos técnicos.
           </p>
           <li>
-            <b>Alocação de Recursos</b>
+            <strong>Alocação de Recursos</strong>
           </li>
           <p>
             <i>Mão de Obra: </i> Equipes ou funcionários designados para a
@@ -109,7 +109,7 @@ function ProductionOrder() {
             disponibilidade.
           </p>
           <li>
-            <b>Custos Estimados</b>
+            <strong>Custos Estimados</strong>
           </li>
           <p>
             <i>Custos de Materiais: </i>Valor dos insumos necessários.
@@ -122,7 +122,7 @@ function ProductionOrder() {
             <i>Custos Indiretos:</i> Gastos gerais associados à produção.
           </p>
           <li>
-            <b>Controle de Qualidade</b>
+            <strong>Controle de Qualidade</strong>
           </li>
           <p>
             <i>Padrões e Especificações: </i> Critérios que o produto final deve
@@ -133,7 +133,7 @@ function ProductionOrder() {
             deve ser aplicado.
           </p>
           <li>
-            <b>Observações e Anotações Adicionais</b>
+            <strong>Observações e Anotações Adicionais</strong>
           </li>
           <p>
             <i>Instruções Complementares: </i>Qualquer informação extra
@@ -151,7 +151,7 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Planejamento e Organização</b>
+            <strong>Planejamento e Organização</strong>
           </li>
           <p>
             <i>Coordenação de Atividades: </i> Garante que todas as etapas sejam
@@ -162,7 +162,7 @@ function ProductionOrder() {
             equipamentos.
           </p>
           <li>
-            <b>Controle e Monitoramento</b>
+            <strong>Controle e Monitoramento</strong>
           </li>
           <p>
             <i>Acompanhamento do Processo: </i> Permite que os gestores
@@ -174,7 +174,7 @@ function ProductionOrder() {
             compras, certificados e laudos).
           </p>
           <li>
-            <b>Comunicação Interna</b>
+            <strong>Comunicação Interna</strong>
           </li>
           <p>
             <i>Alinhamento entre Departamentos: </i> Facilita a troca de
@@ -185,7 +185,7 @@ function ProductionOrder() {
             comunicação.
           </p>
           <li>
-            <b>Análise de Desempenho</b>
+            <strong>Análise de Desempenho</strong>
           </li>
           <p>
             <i>Métricas e Indicadores: </i> Facilita a troca de informações
@@ -196,7 +196,7 @@ function ProductionOrder() {
             implementação de ações corretivas.
           </p>
           <li>
-            <b>Apontamento de falhas</b>
+            <strong>Apontamento de falhas</strong>
           </li>
           <p>
             <i>Falha de produtos</i>
@@ -218,7 +218,7 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Identificação da Necessidade</b>
+            <strong>Identificação da Necessidade</strong>
           </li>
           <p>
             <i>Pedidos de Clientes: </i> Demandas específicas que precisam ser
@@ -229,7 +229,7 @@ function ProductionOrder() {
             níveis adequados.
           </p>
           <li>
-            <b>Planejamento da Produção</b>
+            <strong>Planejamento da Produção</strong>
           </li>
           <p>
             <i>Verificação de Capacidade: </i> Análise da disponibilidade de
@@ -240,7 +240,7 @@ function ProductionOrder() {
             (Mapa de produção).
           </p>
           <li>
-            <b>Emissão e Aprovação</b>
+            <strong>Emissão e Aprovação</strong>
           </li>
           <p>
             <i>Criação da Ordem: </i> Preparação do documento com todas as
@@ -250,21 +250,21 @@ function ProductionOrder() {
             <i>Revisão e Aprovação: </i>Validação por gestores ou responsáveis.
           </p>
           <li>
-            <b>Distribuição</b>
+            <strong>Distribuição</strong>
           </li>
           <p>
             <i>Comunicação aos Envolvidos: </i>Envio da ordem para os
             departamentos relevantes.
           </p>
           <li>
-            <b>Execução</b>
+            <strong>Execução</strong>
           </li>
           <p>
             <i>Início da Produção: </i>Operadores e equipes iniciam as
             atividades conforme instruções.
           </p>
           <li>
-            <b>Controle e Ajustes</b>
+            <strong>Controle e Ajustes</strong>
           </li>
           <p>
             <i>Monitoramento Contínuo: </i> Supervisão para garantir
@@ -275,7 +275,7 @@ function ProductionOrder() {
             mudanças.
           </p>
           <li>
-            <b>Conclusão e Fechamento</b>
+            <strong>Conclusão e Fechamento</strong>
           </li>
           <p>
             <i>Finalização das Atividades: </i> Conclusão da produção conforme
@@ -293,19 +293,20 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Eficiência Operacional:</b> Otimiza processos e reduz
+            <strong>Eficiência Operacional:</strong> Otimiza processos e reduz
             desperdícios.
           </li>
           <li>
-            <b>Qualidade Assegurada:</b> Garante que os produtos atendam aos
-            padrões estabelecidos.
+            <strong>Qualidade Assegurada:</strong> Garante que os produtos
+            atendam aos padrões estabelecidos.
           </li>
           <li>
-            <b>Satisfação do Cliente:</b> Cumpre prazos e expectativas de
-            qualidade.
+            <strong>Satisfação do Cliente:</strong> Cumpre prazos e expectativas
+            de qualidade.
           </li>
           <li>
-            <b>Competitividade:</b> Melhora a capacidade de resposta ao mercado.
+            <strong>Competitividade:</strong> Melhora a capacidade de resposta
+            ao mercado.
           </li>
         </ul>
       </div>
@@ -316,23 +317,23 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Integração de Processos:</b> Centraliza informações e facilita a
-            gestão integrada.
+            <strong>Integração de Processos:</strong> Centraliza informações e
+            facilita a gestão integrada.
           </li>
           <li>
-            <b>Automação:</b> Reduz a necessidade de processos manuais e
-            propensos a erros.
+            <strong>Automação:</strong> Reduz a necessidade de processos manuais
+            e propensos a erros.
           </li>
           <li>
-            <b>MES (Manufacturing Execution Systems):</b> Gestão da produção em
-            tempo real para monitorar e controlar o chão de fábrica.
+            <strong>MES (Manufacturing Execution Systems):</strong> Gestão da
+            produção em tempo real para monitorar e controlar o chão de fábrica.
           </li>
           <li>
-            <b>Sistemas de Planejamento Avançado (APS):</b> Otimiza a
+            <strong>Sistemas de Planejamento Avançado (APS):</strong> Otimiza a
             programação e sequenciamento das ordens.
           </li>
           <li>
-            <b>PCP (Planejamento e Controle de Produção):</b> Efetua o
+            <strong>PCP (Planejamento e Controle de Produção):</strong> Efetua o
             planejamento de longo prazo e acompanha a execução de cada etapa
             produtiva.
           </li>
@@ -403,67 +404,68 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Botão Incluir</b> - Criar Novo lançamento;
+            <strong>Botão Incluir</strong> - Criar Novo lançamento;
           </li>
           <li>
-            <b>Botão Alterar</b> - Realiza alterações em lançamentos já salvos
-            no sistema;
+            <strong>Botão Alterar</strong> - Realiza alterações em lançamentos
+            já salvos no sistema;
           </li>
           <li>
-            <b>Botão cancelar / Excluir</b>- Botão mult. opções, Remove baixa de
-            empenho, cancela lançamento, exclui lançamento;
+            <strong>Botão cancelar / Excluir</strong>- Botão mult. opções,
+            Remove baixa de empenho, cancela lançamento, exclui lançamento;
           </li>
           <li>
-            <b>Botão Salvar</b>- Salvar / Gravar lançamento
+            <strong>Botão Salvar</strong>- Salvar / Gravar lançamento
           </li>
           <li>
-            <b>Botão Cancelar / Abortar</b> - Cancela a operação vigente, ignora
-            alterações e retorno ao estado anterior;
+            <strong>Botão Cancelar / Abortar</strong> - Cancela a operação
+            vigente, ignora alterações e retorno ao estado anterior;
           </li>
           <li>
-            <b>Navegação;</b>
+            <strong>Navegação;</strong>
           </li>
           <li>
-            <b>Botão de pré-visualização </b> - Visualizar impressão do empenho;
+            <strong>Botão de pré-visualização </strong> - Visualizar impressão
+            do empenho;
           </li>
           <li>
-            <b>Botão de Impressão</b>- Impressão do empenho;
+            <strong>Botão de Impressão</strong>- Impressão do empenho;
           </li>
           <li>
-            <b>Botão de réplica de pedido;</b>
+            <strong>Botão de réplica de pedido;</strong>
           </li>
           <li>
-            <b>Botão de relatórios;</b>
+            <strong>Botão de relatórios;</strong>
           </li>
           <li>
-            <b>Botão de confirmação de empenho;</b>
+            <strong>Botão de confirmação de empenho;</strong>
           </li>
           <li>
-            <b>Botão de baixa / finalização de empenho;</b>
+            <strong>Botão de baixa / finalização de empenho;</strong>
           </li>
           <li>
-            <b>Botão de Consulta de pedidos de venda;</b>
+            <strong>Botão de Consulta de pedidos de venda;</strong>
           </li>
           <li>
-            <b>Botão de etiquetas;</b>
+            <strong>Botão de etiquetas;</strong>
           </li>
           <li>
-            <b>Botão de produtos;</b>
+            <strong>Botão de produtos;</strong>
           </li>
           <li>
-            <b>Botão de consulta de empenhos;</b>
+            <strong>Botão de consulta de empenhos;</strong>
           </li>
           <li>
-            <b>Botão de Consulta de Mapas de produção;</b>
+            <strong>Botão de Consulta de Mapas de produção;</strong>
           </li>
           <li>
-            <b>Botão de Consulta de materiais;</b>
+            <strong>Botão de Consulta de materiais;</strong>
           </li>
           <li>
-            <b>Botão de requisição de Material;</b>
+            <strong>Botão de requisição de Material;</strong>
           </li>
           <li>
-            <b>Botão de estorno de material;</b>
+            <strong>Botão de estorno de material;</strong>
           </li>
         </ol>
       </div>
@@ -473,10 +475,12 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Configuração de questionário checklist de novo produto</b>
+            <strong>
+              Configuração de questionário checklist de novo produto
+            </strong>
           </li>
           <li>
-            <b>MRP (Material Requirements Planning)</b>
+            <strong>MRP (Material Requirements Planning)</strong>
           </li>
           <p>
             <i>Necessidade de insumos </i>
@@ -491,7 +495,7 @@ function ProductionOrder() {
           <li>Carteira programada de pedidos</li>
           <li>Previsão de vendas</li>
           <li>
-            <b>Previsão</b>
+            <strong>Previsão</strong>
           </li>
           <p>
             <i>Carga hora máquina </i>com base em carteira de vendas
@@ -500,10 +504,10 @@ function ProductionOrder() {
             <i>Carga hora homem </i>com base em carteira de vendas
           </p>
           <li>
-            <b>Botão Salvar</b>- Salvar / Gravar lançamento
+            <strong>Botão Salvar</strong>- Salvar / Gravar lançamento
           </li>
           <li>
-            <b>Ordens de Produção</b>
+            <strong>Ordens de Produção</strong>
           </li>
           <p>
             <i>Abertura das ordens de produção</i>
@@ -520,12 +524,12 @@ function ProductionOrder() {
             <i>Impressão das ordens de produção </i>
           </p>
           <li>
-            <b>Registro de andamento da OP via leitura ótica</b>
+            <strong>Registro de andamento da OP via leitura ótica</strong>
           </li>
           <li>Código de barras OP x Código de barras do setor</li>
           <li>Acompanhamento Setor x OPs</li>
           <li>
-            <b>Empenho (Ordem de produção) </b>pode ser dividido em:
+            <strong>Empenho (Ordem de produção) </strong>pode ser dividido em:
           </li>
           <li>Empenho sob demanda</li>
           <li>Empenho para Estoque</li>
@@ -547,15 +551,15 @@ function ProductionOrder() {
         <ul className="list-decimal list-inside text-base space-y-2">
           <li>
             Na consulta de empenhos, clique no botão{" "}
-            <b>PEDIDOS NÃO EMPENHADOS.</b> Será exibida uma lista de pedidos de
-            venda ainda não produzidos.
+            <strong>PEDIDOS NÃO EMPENHADOS.</strong> Será exibida uma lista de
+            pedidos de venda ainda não produzidos.
           </li>
           <li>
             Selecione na lista de pedidos quais deverão iniciar o processo de
             produção. Em seguida, clique com o botão direito do mouse.
           </li>
           <li>
-            Na lista de opções, clique em <b>GERAR EMPENHO</b>.
+            Na lista de opções, clique em <strong>GERAR EMPENHO</strong>.
           </li>
         </ul>
       </div>
@@ -569,7 +573,7 @@ function ProductionOrder() {
         alt="Ordem de Produção"
       />
       <p className="mx-4 my-6 text-sm sm:text-base lg:max-w-4xl">
-        Confirme no botão <b>GERAR EMPENHO</b>.
+        Confirme no botão <strong>GERAR EMPENHO</strong>.
       </p>
       <h2 className="mt-10 text-xl sm:text-2xl font-bold text-slate-900">
         Empenho para Estoque
@@ -585,11 +589,11 @@ function ProductionOrder() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-decimal list-inside text-base space-y-2">
           <li>
-            Clique no botão <b>NOVO / INCLUIR</b>.
+            Clique no botão <strong>NOVO / INCLUIR</strong>.
           </li>
           <li>
-            Responda <b>NÃO</b> à pergunta se deseja vincular com pedido de
-            venda.
+            Responda <strong>NÃO</strong> à pergunta se deseja vincular com
+            pedido de venda.
           </li>
           <li>Selecione o produto que deseja produzir.</li>
           <li>Preencha as quantidades:</li>
@@ -607,7 +611,7 @@ function ProductionOrder() {
           </p>
           <li>A lista com a formulação do produto será exibida.</li>
           <li>
-            Clique em <b>Salvar.</b>
+            Clique em <strong>Salvar.</strong>
           </li>
         </ul>
       </div>

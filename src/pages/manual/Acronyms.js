@@ -5,7 +5,9 @@ function Acronyms() {
         Manual do Sistema - Siglas
       </h1>
       <p className="mt-10 text-base sm:text-base lg:max-w-4xl">
-        Conheça as siglas utilizadas nos elementos do manual. Você poderá clicar no item que deseja verificar e uma nova guia com a página do item escolhido será aberta.
+        Conheça as siglas utilizadas nos elementos do manual. Você poderá clicar
+        no item que deseja verificar e uma nova guia com a página do item
+        escolhido será aberta.
       </p>
       <div className="w-full max-w-3xl py-10">
         <ul className="list-inside space-y-4 text-left text-base">
@@ -17,7 +19,7 @@ function Acronyms() {
                 rel="noopener noreferrer"
                 className="text-slate-900"
               >
-                <b>{acronym}</b> - {description}
+                <strong>{acronym}</strong> - {description}
               </a>
             </li>
           ))}

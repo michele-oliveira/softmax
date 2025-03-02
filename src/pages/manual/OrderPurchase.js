@@ -14,12 +14,13 @@ function OrderPurchase() {
         Manual do Sistema - Movimentações - Pedido de compra
       </h1>
       <p className="mt-10 text-base lg:max-w-4xl">
-        O <b>Pedido de Compra</b> é um contrato formal entre a empresa e o
-        fornecedor, deve representar fielmente as condições e características da
-        compra efetuada. É o acordo que representa as condições em que foi feita
-        a negociação, tais como: material, quantidade, qualidade, frequência de
-        entregas, prazos, preços, local de entrega, tributação,entre outros.
-        Esta rotina permite que o Pedido de Compra seja:
+        O <strong>Pedido de Compra</strong> é um contrato formal entre a empresa
+        e o fornecedor, deve representar fielmente as condições e
+        características da compra efetuada. É o acordo que representa as
+        condições em que foi feita a negociação, tais como: material,
+        quantidade, qualidade, frequência de entregas, prazos, preços, local de
+        entrega, tributação,entre outros. Esta rotina permite que o Pedido de
+        Compra seja:
       </p>
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
@@ -49,83 +50,84 @@ function OrderPurchase() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Cadastro de Fornecedores: </b> Inserção e gestão de informações
-            sobre os fornecedores, como dados de contato, produtos oferecidos e
-            condições comerciais.
+            <strong>Cadastro de Fornecedores: </strong> Inserção e gestão de
+            informações sobre os fornecedores, como dados de contato, produtos
+            oferecidos e condições comerciais.
           </li>
           <li>
-            <b>Emissão de Pedidos de Compra:</b> Criação de pedidos de compra de
-            produtos ou serviços com base na necessidade de reposição ou demanda
-            planejada.
+            <strong>Emissão de Pedidos de Compra:</strong> Criação de pedidos de
+            compra de produtos ou serviços com base na necessidade de reposição
+            ou demanda planejada.
           </li>
           <li>
-            <b>Aprovação de Pedidos de Compra:</b> Processo de aprovação
-            automática ou manual dos pedidos de compra conforme critérios
-            pré-estabelecidos, como limites de compra e alçadas.
+            <strong>Aprovação de Pedidos de Compra:</strong> Processo de
+            aprovação automática ou manual dos pedidos de compra conforme
+            critérios pré-estabelecidos, como limites de compra e alçadas.
           </li>
           <li>
-            <b>Consulta de Pedidos de Compra:</b> Ferramenta para visualizar os
-            detalhes de pedidos de compra já emitidos, permitindo acompanhar o
-            status, itens e valores.
+            <strong>Consulta de Pedidos de Compra:</strong> Ferramenta para
+            visualizar os detalhes de pedidos de compra já emitidos, permitindo
+            acompanhar o status, itens e valores.
           </li>
           <li>
-            <b>Gestão de Cotações:</b> Solicitação e comparação de cotações
-            entre diferentes fornecedores, facilitando a escolha das melhores
-            condições de compra.
+            <strong>Gestão de Cotações:</strong> Solicitação e comparação de
+            cotações entre diferentes fornecedores, facilitando a escolha das
+            melhores condições de compra.
           </li>
           <li>
-            <b>Controle de Recebimento: </b>Acompanhamento da entrega dos itens
-            adquiridos, registrando a entrada dos produtos no estoque e
-            verificando possíveis discrepâncias.
+            <strong>Controle de Recebimento: </strong>Acompanhamento da entrega
+            dos itens adquiridos, registrando a entrada dos produtos no estoque
+            e verificando possíveis discrepâncias.
           </li>
           <li>
-            <b>Emissão de Relatórios de Compras:</b> Geração de relatórios para
-            análise de desempenho das compras, incluindo volume de compras,
-            fornecedores, prazos e condições.
+            <strong>Emissão de Relatórios de Compras:</strong> Geração de
+            relatórios para análise de desempenho das compras, incluindo volume
+            de compras, fornecedores, prazos e condições.
           </li>
           <li>
-            <b>Gestão de Estoque Integrado:</b> Sincronização automática com o
-            módulo de estoque, atualizando as quantidades à medida que os
-            produtos são recebidos.
+            <strong>Gestão de Estoque Integrado:</strong> Sincronização
+            automática com o módulo de estoque, atualizando as quantidades à
+            medida que os produtos são recebidos.
           </li>
           <li>
-            <b>Controle de Orçamentos: </b> Verificação do impacto de um pedido
-            de compra no orçamento disponível, garantindo que a empresa esteja
-            dentro dos limites financeiros planejados.
+            <strong>Controle de Orçamentos: </strong> Verificação do impacto de
+            um pedido de compra no orçamento disponível, garantindo que a
+            empresa esteja dentro dos limites financeiros planejados.
           </li>
           <li>
-            <b>Requisições de Compra: </b> Módulo que permite que diferentes
-            setores da empresa façam solicitações de compra, iniciando o
-            processo de aquisição.
+            <strong>Requisições de Compra: </strong> Módulo que permite que
+            diferentes setores da empresa façam solicitações de compra,
+            iniciando o processo de aquisição.
           </li>
           <li>
-            <b>Histórico de Pedidos de Compra: </b> Registro completo de todos
-            os pedidos de compra realizados, facilitando consultas e auditorias.
+            <strong>Histórico de Pedidos de Compra: </strong> Registro completo
+            de todos os pedidos de compra realizados, facilitando consultas e
+            auditorias.
           </li>
           <li>
-            <b>Gestão de Prazos de Entrega: </b> Acompanhamento dos prazos de
-            entrega acordados com os fornecedores para garantir o cumprimento
-            dos cronogramas.
+            <strong>Gestão de Prazos de Entrega: </strong> Acompanhamento dos
+            prazos de entrega acordados com os fornecedores para garantir o
+            cumprimento dos cronogramas.
           </li>
           <li>
-            <b>Integração com Contas a Pagar: </b> Conexão com o módulo
-            financeiro para programar pagamentos aos fornecedores conforme os
-            pedidos de compra são processados.
+            <strong>Integração com Contas a Pagar: </strong> Conexão com o
+            módulo financeiro para programar pagamentos aos fornecedores
+            conforme os pedidos de compra são processados.
           </li>
           <li>
-            <b>Automação de Reabastecimento: </b> Sistema que sugere ou gera
-            automaticamente pedidos de compra com base em parâmetros definidos,
-            como níveis mínimos de estoque ou previsão de demanda.
+            <strong>Automação de Reabastecimento: </strong> Sistema que sugere
+            ou gera automaticamente pedidos de compra com base em parâmetros
+            definidos, como níveis mínimos de estoque ou previsão de demanda.
           </li>
           <li>
-            <b>Gestão de Contratos de Fornecimento: </b> Gerenciamento de
-            contratos a longo prazo com fornecedores, garantindo que os pedidos
-            de compra estejam dentro dos termos acordados.
+            <strong>Gestão de Contratos de Fornecimento: </strong> Gerenciamento
+            de contratos a longo prazo com fornecedores, garantindo que os
+            pedidos de compra estejam dentro dos termos acordados.
           </li>
           <li>
-            <b>Análise de Fornecedores:</b> Avaliação de desempenho dos
-            fornecedores com base em critérios como pontualidade, qualidade dos
-            produtos e condições comerciais ISO.
+            <strong>Análise de Fornecedores:</strong> Avaliação de desempenho
+            dos fornecedores com base em critérios como pontualidade, qualidade
+            dos produtos e condições comerciais ISO.
           </li>
         </ol>
       </div>
@@ -150,73 +152,77 @@ function OrderPurchase() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Botão Incluir</b> - Criar Novo lançamento;
+            <strong>Botão Incluir</strong> - Criar Novo lançamento;
           </li>
           <li>
-            <b>Botão Alterar</b> - Realiza alterações em lançamentos já salvos
-            no sistema;
+            <strong>Botão Alterar</strong> - Realiza alterações em lançamentos
+            já salvos no sistema;
           </li>
           <li>
-            <b>Botão cancelar / Excluir</b>- Botão mult. opções, Remove baixa de
-            empenho, cancela lançamento, exclui lançamento;
+            <strong>Botão cancelar / Excluir</strong>- Botão mult. opções,
+            Remove baixa de empenho, cancela lançamento, exclui lançamento;
           </li>
           <li>
-            <b>Botão Salvar</b>- Salvar / Gravar lançamento
+            <strong>Botão Salvar</strong>- Salvar / Gravar lançamento
           </li>
           <li>
-            <b>Botão Cancelar / Abortar</b> - Cancela a operação vigente, ignora
-            alterações e retorno ao estado anterior;
+            <strong>Botão Cancelar / Abortar</strong> - Cancela a operação
+            vigente, ignora alterações e retorno ao estado anterior;
           </li>
           <li>
-            <b>Navegação;</b>
+            <strong>Navegação;</strong>
           </li>
           <li>
-            <b>Navegação;</b>
+            <strong>Navegação;</strong>
           </li>
           <li>
-            <b>Navegação;</b>
+            <strong>Navegação;</strong>
           </li>
           <li>
-            <b>Navegação;</b>
+            <strong>Navegação;</strong>
           </li>
           <li>
-            <b>Botão de pré-visualização/impressão </b> - impressão do pedido;
+            <strong>Botão de pré-visualização/impressão </strong> - impressão do
+            pedido;
           </li>
           <li>
-            <b>Botão de Baixa / Finalização da Compra;</b>
+            <strong>Botão de Baixa / Finalização da Compra;</strong>
           </li>
           <li>
-            <b>Botão de réplica de pedido;</b>
+            <strong>Botão de réplica de pedido;</strong>
           </li>
           <li>
-            <b>Botão de cadastro de Fornecedores;</b>
+            <strong>Botão de cadastro de Fornecedores;</strong>
           </li>
           <li>
-            <b>Botão de cadastro de Transportadoras;</b>
+            <strong>Botão de cadastro de Transportadoras;</strong>
           </li>
           <li>
-            <b>Botão de cadastro de produtos;</b>
+            <strong>Botão de cadastro de produtos;</strong>
           </li>
           <li>
-            <b>Botão de Consulta de pedidos de Compra; </b>
+            <strong>Botão de Consulta de pedidos de Compra; </strong>
           </li>
           <li>
-            <b>Botão de Junção </b> - Juntar pedidos em um único pedido;
+            <strong>Botão de Junção </strong> - Juntar pedidos em um único
+            pedido;
           </li>
           <li>
-            <b>Botão de Relatório;</b>
+            <strong>Botão de Relatório;</strong>
           </li>
           <li>
-            <b>Botão de Emissão de Nota fiscal de Devolução de compra;</b>
+            <strong>
+              Botão de Emissão de Nota fiscal de Devolução de compra;
+            </strong>
           </li>
           <li>
-            <b>Botão de gerenciador de arquivos ; </b>
+            <strong>Botão de gerenciador de arquivos ; </strong>
           </li>
           <li>
-            <b>Botão de Emitir Nota fiscal ;</b>
+            <strong>Botão de Emitir Nota fiscal ;</strong>
           </li>
           <li>
-            <b>Botão de cotação ;</b>
+            <strong>Botão de cotação ;</strong>
           </li>
         </ol>
       </div>
@@ -248,25 +254,25 @@ function OrderPurchase() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <b>Clique no botão NOVO para novo pedido;</b>
+            <strong>Clique no botão NOVO para novo pedido;</strong>
           </li>
           <li>
-            <b>Selecione o Fornecedor;</b>
+            <strong>Selecione o Fornecedor;</strong>
           </li>
           <li>
-            <b>Informe o tipo de pagamento e as parcelas;</b>
+            <strong>Informe o tipo de pagamento e as parcelas;</strong>
           </li>
           <li>
-            <b>Selecione o XML ( se já o tiver em mãos);</b>
+            <strong>Selecione o XML ( se já o tiver em mãos);</strong>
           </li>
           <li>
-            <b>Preencha com os produtos;</b>
+            <strong>Preencha com os produtos;</strong>
           </li>
           <li>
-            <b>Informe o transporte e o tipo;</b>
+            <strong>Informe o transporte e o tipo;</strong>
           </li>
           <li>
-            <b>Clique em salvar;</b>
+            <strong>Clique em salvar;</strong>
           </li>
         </ol>
       </div>
@@ -322,10 +328,10 @@ function OrderPurchase() {
         Após pedido preenchido e salvo clique em Baixar pedido:
       </p>
       <p className="pb-6 text-base lg:max-w-4xl">
-      Caso o preenchimento foi manual,
+        Caso o preenchimento foi manual,
       </p>
       <p className="pb-6 text-base lg:max-w-4xl">
-      Selecionar espécie , e localizar o XML:
+        Selecionar espécie , e localizar o XML:
       </p>
       <img
         className="w-full max-w-3xl object-contain pt-6"
@@ -338,34 +344,43 @@ function OrderPurchase() {
         alt="Desenvolvimento de Produtos e Ensaios"
       />
       <p className="py-6 text-base lg:max-w-4xl">
-      Após esse processo, clicar em baixar;
+        Após esse processo, clicar em baixar;
       </p>
       <p className="pb-6 text-base lg:max-w-4xl">
-      O estoque será atualizado, gerado contas a pagar do fornecedor;
-      </p>
-      <h2 className="py-10 text-lg lg:max-w-4xl font-bold">
-      Movimento - Pedido de Compra / Recebimento
-      </h2>
-      <p className="pb-6 text-base lg:max-w-4xl">
-      Complemento do módulo de compras, com objetivo de efetuar o recebimento de mercadorias provenientes do setor de compras na expedição da empresa.
-      </p>
-      <p className="pb-6 text-base lg:max-w-4xl">
-      As áreas de recebimento são os locais nos quais são recebidos os insumos e produtos, onde são realizadas as primeiras verificações das cargas recebidas, por exemplo, conferência da nota fiscal, lotes, quantidades e análise de qualidade (ISO).
+        O estoque será atualizado, gerado contas a pagar do fornecedor;
       </p>
       <h2 className="py-10 text-lg lg:max-w-4xl font-bold">
-      Consulta de Pedidos para Recebimento
+        Movimento - Pedido de Compra / Recebimento
       </h2>
       <p className="pb-6 text-base lg:max-w-4xl">
-      Nesta tela são exibidos os pedidos de compras pendentes de recebimento. Dê dois cliques para abrir o pedido no módulo de recebimento.
+        Complemento do módulo de compras, com objetivo de efetuar o recebimento
+        de mercadorias provenientes do setor de compras na expedição da empresa.
       </p>
       <p className="pb-6 text-base lg:max-w-4xl">
-      Na tela de detalhes do pedido, informe o número da nota fiscal, data de emissão e nome do responsável pelo recebimento.
+        As áreas de recebimento são os locais nos quais são recebidos os insumos
+        e produtos, onde são realizadas as primeiras verificações das cargas
+        recebidas, por exemplo, conferência da nota fiscal, lotes, quantidades e
+        análise de qualidade (ISO).
+      </p>
+      <h2 className="py-10 text-lg lg:max-w-4xl font-bold">
+        Consulta de Pedidos para Recebimento
+      </h2>
+      <p className="pb-6 text-base lg:max-w-4xl">
+        Nesta tela são exibidos os pedidos de compras pendentes de recebimento.
+        Dê dois cliques para abrir o pedido no módulo de recebimento.
       </p>
       <p className="pb-6 text-base lg:max-w-4xl">
-      Nesta mesma tela, dê dois cliques no item (produto) para abrir a tela de detalhes do produto.
+        Na tela de detalhes do pedido, informe o número da nota fiscal, data de
+        emissão e nome do responsável pelo recebimento.
       </p>
       <p className="pb-6 text-base lg:max-w-4xl">
-      Nesta tela de detalhes dos itens, há a opção de informação dos requisitos de fornecimento (parâmetros de qualidade ISO), quantidades, lotes e volumes recebidos.
+        Nesta mesma tela, dê dois cliques no item (produto) para abrir a tela de
+        detalhes do produto.
+      </p>
+      <p className="pb-6 text-base lg:max-w-4xl">
+        Nesta tela de detalhes dos itens, há a opção de informação dos
+        requisitos de fornecimento (parâmetros de qualidade ISO), quantidades,
+        lotes e volumes recebidos.
       </p>
     </div>
   );

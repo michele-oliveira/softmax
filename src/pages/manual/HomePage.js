@@ -32,10 +32,10 @@ const HomePage = () => {
       />
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <p className="text-base pt-2">
-          <b>1- Campo Nome de Usuário -</b> Colocar seu usuário
+          <strong>1- Campo Nome de Usuário -</strong> Colocar seu usuário
         </p>
         <p className="text-base pt-2">
-          <b>2- Campo Senha- </b> Colocar sua senha
+          <strong>2- Campo Senha- </strong> Colocar sua senha
         </p>
       </div>
       <img
@@ -62,69 +62,75 @@ const HomePage = () => {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <p className="text-base pb-5">
-          <b>Cadastros </b>
+          <strong>Cadastros </strong>
         </p>
         <p className="text-base pt-2">
-          <b>1- Cadastro de Clientes </b> - Realizar o cadastro de clientes
+          <strong>1- Cadastro de Clientes </strong> - Realizar o cadastro de
+          clientes
         </p>
         <p className="text-base pt-2">
-          <b>2- Cadastro de Fornecedores </b> - Realizar o cadastro de
+          <strong>2- Cadastro de Fornecedores </strong> - Realizar o cadastro de
           Fornecedores
         </p>
         <p className="text-base pt-2">
-          <b>3- Cadastro de Clientes </b> - Realizar cadastro de Clientes
+          <strong>3- Cadastro de Clientes </strong> - Realizar cadastro de
+          Clientes
         </p>
         <p className="text-base pt-2">
-          <b>4- Cadastro de Transportadoras </b>- Realiza cadastro de
+          <strong>4- Cadastro de Transportadoras </strong>- Realiza cadastro de
           Transportadoras
         </p>
         <p className="text-base py-5">
-          <b>Produtos </b>
+          <strong>Produtos </strong>
         </p>
         <p className="text-base pt-2">
-          <b>5- Produtos Acabados (PA) </b> - Realiza o cadastro de produtos
+          <strong>5- Produtos Acabados (PA) </strong> - Realiza o cadastro de
+          produtos acabados
+        </p>
+        <p className="text-base pt-2">
+          <strong>6- Matéria Prima (PA) </strong> - Realiza o cadastro de
+          matéria prima
+        </p>
+        <p className="text-base pt-2">
+          <strong>7- Outros Materiais </strong> - Realiza o cadastro de outros
+          materiais
+        </p>
+        <p className="text-base pt-2">
+          <strong>8- Semi-Acabados </strong> - Realiza o cadastro de semi
           acabados
         </p>
         <p className="text-base pt-2">
-          <b>6- Matéria Prima (PA) </b> - Realiza o cadastro de matéria prima
+          <strong>9- Desenvolvimento Pro </strong> - Realiza o cadastro de
+          desenvolvimento pro
         </p>
         <p className="text-base pt-2">
-          <b>7- Outros Materiais </b> - Realiza o cadastro de outros materiais
-        </p>
-        <p className="text-base pt-2">
-          <b>8- Semi-Acabados </b> - Realiza o cadastro de semi acabados
-        </p>
-        <p className="text-base pt-2">
-          <b>9- Desenvolvimento Pro </b> - Realiza o cadastro de desenvolvimento
-          pro
-        </p>
-        <p className="text-base pt-2">
-          <b>10- Amostras </b> - Realiza o cadastro de amostras
+          <strong>10- Amostras </strong> - Realiza o cadastro de amostras
         </p>
         <p className="text-base py-5">
-          <b>Calendário </b>
+          <strong>Calendário </strong>
         </p>
         <p className="text-base pt-2">
-          <b>11- Calendário </b> - Realiza o cadastro de calendários
+          <strong>11- Calendário </strong> - Realiza o cadastro de calendários
         </p>
         <p className="text-base pt-2">
-          <b>12- Agenda </b> - Realiza o cadastro de agendas
+          <strong>12- Agenda </strong> - Realiza o cadastro de agendas
         </p>
         <p className="text-base py-5">
-          <b>Operações </b>
+          <strong>Operações </strong>
         </p>
         <p className="text-base pt-2">
-          <b>13-Mensagens </b> - Realiza o cadastro de mensagens
+          <strong>13-Mensagens </strong> - Realiza o cadastro de mensagens
         </p>
         <p className="text-base pt-2">
-          <b>14- Troca de senha </b> - Realiza a troca da senha para acesso do
-          usuário
+          <strong>14- Troca de senha </strong> - Realiza a troca da senha para
+          acesso do usuário
         </p>
         <p className="text-base pt-2">
-          <b>15- Relogar </b> - Possibilita o usuário relogar no sistema
+          <strong>15- Relogar </strong> - Possibilita o usuário relogar no
+          sistema
         </p>
         <p className="text-base pt-2">
-          <b>16- Fechar </b> - Faz o fechamento do sistema
+          <strong>16- Fechar </strong> - Faz o fechamento do sistema
         </p>
       </div>
 
@@ -136,40 +142,41 @@ const HomePage = () => {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <p className="text-base pb-5">
-          <b>Pedidos </b>
+          <strong>Pedidos </strong>
         </p>
         <p className="text-base pt-2">
-          <b>1- Pedidos de venda </b> - Realiza pedido de venda
+          <strong>1- Pedidos de venda </strong> - Realiza pedido de venda
         </p>
         <p className="text-base pt-2">
-          <b>2- Pedido de compra </b> - Realiza o pedido de compra no sistema
+          <strong>2- Pedido de compra </strong> - Realiza o pedido de compra no
+          sistema
         </p>
         <p className="text-base pt-2">
-          <b>3- Cotação de compra </b> - Realiza cotação de compra
+          <strong>3- Cotação de compra </strong> - Realiza cotação de compra
         </p>
         <p className="text-base py-5">
-          <b>Produção </b>
+          <strong>Produção </strong>
         </p>
         <p className="text-base pt-2">
-          <b>4- Empenhos </b>
+          <strong>4- Empenhos </strong>
         </p>
         <p className="text-base pt-2">
-          <b>5- Mapa de Produção </b>
+          <strong>5- Mapa de Produção </strong>
         </p>
         <p className="text-base pt-2">
-          <b>6- Mapa de desenvolvimento </b>
+          <strong>6- Mapa de desenvolvimento </strong>
         </p>
         <p className="text-base py-5">
-          <b>Financeiro </b>
+          <strong>Financeiro </strong>
         </p>
         <p className="text-base pt-2">
-          <b>7- Contas a receber </b>
+          <strong>7- Contas a receber </strong>
         </p>
         <p className="text-base pt-2">
-          <b>8- Contas a pagar </b>
+          <strong>8- Contas a pagar </strong>
         </p>
         <p className="text-base pt-2">
-          <b>9-Controle Bancário </b>
+          <strong>9-Controle Bancário </strong>
         </p>
       </div>
 
@@ -181,57 +188,60 @@ const HomePage = () => {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <p className="text-base pb-5">
-          <b>Relatórios </b>
+          <strong>Relatórios </strong>
         </p>
         <p className="text-base pt-2">
-          <b>1- Relatório de clientes </b> - Gera e imprime o relatório de
-          clientes
+          <strong>1- Relatório de clientes </strong> - Gera e imprime o
+          relatório de clientes
         </p>
         <p className="text-base pt-2">
-          <b>2- Relatório de Fornecedores</b> - Gera e imprime o relatório de
-          Fornecedores
+          <strong>2- Relatório de Fornecedores</strong> - Gera e imprime o
+          relatório de Fornecedores
         </p>
         <p className="text-base pt-2">
-          <b>3- Relatório de Produtos </b> - Gera e imprime o relatório de
-          produtos
+          <strong>3- Relatório de Produtos </strong> - Gera e imprime o
+          relatório de produtos
         </p>
         <p className="text-base py-5">
-          <b>Pedidos </b>
+          <strong>Pedidos </strong>
         </p>
         <p className="text-base pt-2">
-          <b>4- Relatório de Vendas </b> - Gera e imprime o relatório de vendas
+          <strong>4- Relatório de Vendas </strong> - Gera e imprime o relatório
+          de vendas
         </p>
         <p className="text-base pt-2">
-          <b>5- Relatório de compras </b> - Gera e imprime o relatório de
-          compras
+          <strong>5- Relatório de compras </strong> - Gera e imprime o relatório
+          de compras
         </p>
         <p className="text-base py-5">
-          <b>Financeiro </b>
+          <strong>Financeiro </strong>
         </p>
         <p className="text-base pt-2">
-          <b>6- Relatório de contas a receber</b> - Gera e imprime o relatório
-          de contas a receber
+          <strong>6- Relatório de contas a receber</strong> - Gera e imprime o
+          relatório de contas a receber
         </p>
         <p className="text-base pt-2">
-          <b>7- Relatório de contas a pagar </b> - Gera e imprime o relatório de
-          contas a pagar
+          <strong>7- Relatório de contas a pagar </strong> - Gera e imprime o
+          relatório de contas a pagar
         </p>
         <p className="text-base pt-2">
-          <b>8- Relatório de Bancário </b> - Gera e imprime o relatório Bancário
+          <strong>8- Relatório de Bancário </strong> - Gera e imprime o
+          relatório Bancário
         </p>
         <p className="text-base pt-2">
-          <b>9-Controle Cheques </b> - Gera e imprime o relatório de cheques
+          <strong>9-Controle Cheques </strong> - Gera e imprime o relatório de
+          cheques
         </p>
         <p className="text-base py-5">
-          <b>Produção </b>
+          <strong>Produção </strong>
         </p>
         <p className="text-base pt-2">
-          <b>10- Relatório de Empenho</b> - Gera e imprime o relatório de
-          empenho
+          <strong>10- Relatório de Empenho</strong> - Gera e imprime o relatório
+          de empenho
         </p>
         <p className="text-base pt-2">
-          <b>11- Relatório de Produção</b> - Gera e imprime o relatório de
-          produção
+          <strong>11- Relatório de Produção</strong> - Gera e imprime o
+          relatório de produção
         </p>
       </div>
       <img
@@ -241,16 +251,16 @@ const HomePage = () => {
       />
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <p className="text-base pb-5">
-          <b>Portaria </b>
+          <strong>Portaria </strong>
         </p>
         <p className="text-base pt-2">
-          <b>1- Funcionários </b>
+          <strong>1- Funcionários </strong>
         </p>
         <p className="text-base pt-2">
-          <b>2- Veículos</b>
+          <strong>2- Veículos</strong>
         </p>
         <p className="text-base pt-2">
-          <b>3- Visitantes </b>
+          <strong>3- Visitantes </strong>
         </p>
       </div>
 

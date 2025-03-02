@@ -20,10 +20,10 @@ function ShippingCNAB() {
         Manual de Operações - Remessa CNAB
       </h1>
       <p className="my-10 text-base sm:text-base lg:max-w-4xl">
-        <b>No módulo de cobrança, Contas a receber (F10)</b>, filtre os títulos
-        e selecione aqueles que deseja enviar para cobrança. Com o botão
-        direito, acesse o menu de opções e clique em “Gerar Remessa”, conforme
-        imagem <b>(Figura 1)</b>.
+        <strong>No módulo de cobrança, Contas a receber (F10)</strong>, filtre
+        os títulos e selecione aqueles que deseja enviar para cobrança. Com o
+        botão direito, acesse o menu de opções e clique em “Gerar Remessa”,
+        conforme imagem <strong>(Figura 1)</strong>.
       </p>
       <p>Figura 1 - Módulo de Cobrança / Contas a receber</p>
       <img
@@ -32,9 +32,9 @@ function ShippingCNAB() {
         alt="Remessa CNAB"
       />
       <p className="my-10 text-base sm:text-base lg:max-w-4xl">
-        <b>No Módulo a seguir, na tela de Remessa CNAB,</b> selecione a Conta
-        Bancária / Carteira para registro de títulos e clique em “Gerar
-        Arquivo”. Conforme imagem <b>(Figura 2).</b>
+        <strong>No Módulo a seguir, na tela de Remessa CNAB,</strong> selecione
+        a Conta Bancária / Carteira para registro de títulos e clique em “Gerar
+        Arquivo”. Conforme imagem <strong>(Figura 2).</strong>
       </p>
       <p>Figura 2 - Módulo de Remessa/ Boletos</p>
       <img
@@ -43,9 +43,9 @@ function ShippingCNAB() {
         alt="Remessa CNAB"
       />
       <p className="my-10 text-base sm:text-base lg:max-w-4xl">
-        <b>Com o arquivo gerado,</b> acesse o site do seu banco e, na opção de
-        cobrança, selecione a opção de envio de arquivo CNAB, escolha o arquivo
-        gerado e clique em adicionar.
+        <strong>Com o arquivo gerado,</strong> acesse o site do seu banco e, na
+        opção de cobrança, selecione a opção de envio de arquivo CNAB, escolha o
+        arquivo gerado e clique em adicionar.
       </p>
       <p>Figura 3 - Modelo de envio de arquivo CNAB (Sicoob)</p>
       <img
@@ -66,15 +66,15 @@ function ShippingCNAB() {
         alt="Remessa CNAB"
       />
       <p className="my-10 text-base sm:text-base lg:max-w-4xl">
-        <b>Confirme a opção de envio.</b> Esta operação visa enviar um lote de
-        informações contendo todos os títulos ao banco.
+        <strong>Confirme a opção de envio.</strong> Esta operação visa enviar um
+        lote de informações contendo todos os títulos ao banco.
       </p>
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left">
         <ul className="list-decimal list-inside text-base space-y-2">
           <p className="text-base sm:text-base lg:max-w-4xl">
-            <b>Importante: </b>para habilitar o envio de arquivo CNAB é
-            necessário:
+            <strong>Importante: </strong>para habilitar o envio de arquivo CNAB
+            é necessário:
           </p>
           <li>
             Solicitar ao gerente da conta a liberação de envio de remessa com
@@ -156,14 +156,16 @@ function ShippingCNAB() {
             conciliar as contas bancárias e identificar possíveis divergências.
           </li>
           <p className="text-base sm:text-base lg:max-w-4xl">
-            <b>
+            <strong>
               6- O próximo passo é baixar o arquivo de Retorno CNAB no site do
               banco
-            </b>{" "}
+            </strong>{" "}
             e salvar em uma pasta em seu computador.
           </p>
           <p className="text-base sm:text-base lg:max-w-4xl">
-            <b>7- Acesse o módulo de leitura de retorno (Remessa CNAB)</b>
+            <strong>
+              7- Acesse o módulo de leitura de retorno (Remessa CNAB)
+            </strong>
           </p>
           <p className="text-base sm:text-base lg:max-w-4xl">
             <i>Figura 6 -</i> Menu de leitura de retorno CNAB
@@ -176,10 +178,10 @@ function ShippingCNAB() {
         alt="Remessa CNAB"
       />
       <p className="py-6 text-base sm:text-base lg:max-w-4xl">
-        <b>
+        <strong>
           8- No módulo de leitura, clique em “Ler Remessa” e localize o arquivo
           de retorno baixado.
-        </b>
+        </strong>
       </p>
       <p className="text-base sm:text-base lg:max-w-4xl">
         <i>Figura 7 -</i> Módulo de leitura - Arquivo de Retorno CNAB
@@ -190,10 +192,10 @@ function ShippingCNAB() {
         alt="Remessa CNAB"
       />
       <p className="text-base sm:text-base lg:max-w-4xl">
-        <b>
-          9- <b>Ao selecionar o arquivo de remessa,</b> o sistema faz a
-          verificação e validação dos títulos.
-        </b>
+        <strong>
+          9- <strong>Ao selecionar o arquivo de remessa,</strong> o sistema faz
+          a verificação e validação dos títulos.
+        </strong>
       </p>
       <p className="text-base sm:text-base lg:max-w-4xl py-6">
         <i>Figura 8 -</i> Módulo de leitura de Arq Retorno - Tratamento de
@@ -266,29 +268,30 @@ function ShippingCNAB() {
             os bancos. Com o uso dos arquivos CNAB:
           </p>
           <li>
-            <b>Automatização de Processos:</b> Permite que pagamentos, cobranças
-            e outras transações sejam processados automaticamente pelo sistema
-            ERP, reduzindo a necessidade de inserção manual de dados.
+            <strong>Automatização de Processos:</strong> Permite que pagamentos,
+            cobranças e outras transações sejam processados automaticamente pelo
+            sistema ERP, reduzindo a necessidade de inserção manual de dados.
           </li>
           <li>
-            <b>Redução de Erros: </b> A padronização minimiza inconsistências e
-            erros comuns em processos manuais, aumentando a precisão das
-            informações financeiras.
+            <strong>Redução de Erros: </strong> A padronização minimiza
+            inconsistências e erros comuns em processos manuais, aumentando a
+            precisão das informações financeiras.
           </li>
           <li>
-            <b>Agilidade nas Operações: </b> A comunicação direta e estruturada
-            com os bancos acelera o processamento de transações, liberando
-            recursos mais rapidamente.
+            <strong>Agilidade nas Operações: </strong> A comunicação direta e
+            estruturada com os bancos acelera o processamento de transações,
+            liberando recursos mais rapidamente.
           </li>
           <li>
-            <b>Facilidade na Conciliação Bancária: </b> A leitura dos arquivos
-            de retorno atualiza automaticamente o status dos títulos no sistema,
-            simplificando a conciliação e identificação de discrepâncias.
+            <strong>Facilidade na Conciliação Bancária: </strong> A leitura dos
+            arquivos de retorno atualiza automaticamente o status dos títulos no
+            sistema, simplificando a conciliação e identificação de
+            discrepâncias.
           </li>
           <li>
-            <b>Melhor Controle Financeiro: </b> Proporciona uma visão atualizada
-            e precisa das movimentações financeiras, auxiliando na tomada de
-            decisões estratégicas.
+            <strong>Melhor Controle Financeiro: </strong> Proporciona uma visão
+            atualizada e precisa das movimentações financeiras, auxiliando na
+            tomada de decisões estratégicas.
           </li>
           <p className="text-base sm:text-base lg:max-w-4xl py-6">
             Em resumo, o uso de arquivos CNAB otimiza a gestão financeira,

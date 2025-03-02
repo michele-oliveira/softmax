@@ -17,10 +17,10 @@ function Taxpayer() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left">
         <ul className="list-decimal list-inside text-base space-y-2">
           <p className="my-6 text-sm sm:text-base lg:max-w-4xl">
-           <i> Veja as diferenças:</i>
+            <i> Veja as diferenças:</i>
           </p>
           <li>
-            <b>Contribuinte</b>
+            <strong>Contribuinte</strong>
           </li>
           <p>
             Regulamentado pelo artigo 4 da Lei Kandir, um contribuinte é uma
@@ -37,7 +37,7 @@ function Taxpayer() {
             contrário, não será possível autorizar a NF-e.
           </p>
           <li>
-            <b> Contribuinte Isento</b>
+            <strong> Contribuinte Isento</strong>
           </li>
           <p>
             Um Contribuinte Isento simplesmente não possui ou está impedido de
@@ -56,7 +56,7 @@ function Taxpayer() {
             Centralizado de Contribuinte será considerado como Consumidor Final.
           </p>
           <li>
-            <b>Não Contribuinte</b>{" "}
+            <strong>Não Contribuinte</strong>{" "}
           </li>
           <p>
             Um não contribuinte nada mais é do que uma Pessoa (seja ela Física

@@ -9,8 +9,8 @@ function CustomerRegistration() {
         Manual do Sistema - Cadastro de Cliente
       </h1>
       <p className="mx-4 my-6 text-sm sm:text-base lg:max-w-4xl">
-        O programa <b>Maxcontrol</b> oferece um formulário de cadastro de
-        clientes completo para melhor organizar e adquirir os dados de seus
+        O programa <strong>Maxcontrol</strong> oferece um formulário de cadastro
+        de clientes completo para melhor organizar e adquirir os dados de seus
         consumidores. Cadastre seus clientes com nome, endereços diversos,
         CNPJ/CPF, data de abertura/fundação e muito mais. Com módulos integrados
         e visão centralizada, cheque e acompanhe as transações de seus clientes
@@ -23,10 +23,10 @@ function CustomerRegistration() {
       </p>
       <p className="mx-4 mb-10 text-sm sm:text-base lg:max-w-4xl">
         Integrado ao módulo de{" "}
-        <b>
+        <strong>
           CRM Customer Relationship Management (Gestão de relacionamento com o
           cliente)
-        </b>{" "}
+        </strong>{" "}
         reúne toda uma classe de sistemas de informações ou ferramentas que
         automatizam as funções de contato com o cliente. Estas ferramentas
         compreendem sistemas informatizados e fundamentalmente uma mudança de
@@ -50,58 +50,61 @@ function CustomerRegistration() {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left px-4">
         <p className="text-sm pt-2">
-          <b>1-Botão Incluir-</b> Criar Novo lançamento;
+          <strong>1-Botão Incluir-</strong> Criar Novo lançamento;
         </p>
         <p className="text-sm pt-1">
-          <b>2-Botão Alterar -</b> Alterar / Editar um lançamento salvo;
+          <strong>2-Botão Alterar -</strong> Alterar / Editar um lançamento
+          salvo;
         </p>
         <p className="text-sm pt-1">
-          <b>3-Botão cancelar / Excluir -</b> Botão mult. opções, Remove baixa
-          de empenho, cancela lançamento, exclui lançamento;
+          <strong>3-Botão cancelar / Excluir -</strong> Botão mult. opções,
+          Remove baixa de empenho, cancela lançamento, exclui lançamento;
         </p>
         <p className="text-sm pt-1">
-          <b>4-Botão Salvar - </b> Salvar / Gravar lançamento
+          <strong>4-Botão Salvar - </strong> Salvar / Gravar lançamento
         </p>
         <p className="text-sm pt-1">
-          <b>5-Botão Cancelar / Abortar - </b> Cancela a operação vigente,
-          ignora alterações e retorno ao estado anterior;
+          <strong>5-Botão Cancelar / Abortar - </strong> Cancela a operação
+          vigente, ignora alterações e retorno ao estado anterior;
         </p>
         <p className="text-sm pt-1">
-          <b>6-Botão Pedido de venda -</b> Abre módulo de pedido de venda;
+          <strong>6-Botão Pedido de venda -</strong> Abre módulo de pedido de
+          venda;
         </p>
         <p className="text-sm pt-1">
-          <b>7-Botão Cadastro de produtos -</b> Abre módulo de cadastro de
-          produtos;
+          <strong>7-Botão Cadastro de produtos -</strong> Abre módulo de
+          cadastro de produtos;
         </p>
         <p className="text-sm pt-1">
-          <b>8-Botão de cadastro de amostra;</b>
+          <strong>8-Botão de cadastro de amostra;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>9-Botão de cadastro de desenvolvimento de produtos;</b>
+          <strong>9-Botão de cadastro de desenvolvimento de produtos;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>10-Botão de pré-visualização/impressão -</b> impressão do cadastro;
+          <strong>10-Botão de pré-visualização/impressão -</strong> impressão do
+          cadastro;
         </p>
         <p className="text-sm pt-1">
-          <b>11-Botão de emissão de relatórios;</b>
+          <strong>11-Botão de emissão de relatórios;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>12-Botão de gerenciador de arquivos ;</b>
+          <strong>12-Botão de gerenciador de arquivos ;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>13-Botão de abrir cotação de venda;</b>
+          <strong>13-Botão de abrir cotação de venda;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>14-Botão de abrir financeiro;</b>
+          <strong>14-Botão de abrir financeiro;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>15-Botão de mapas;</b>
+          <strong>15-Botão de mapas;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>16-Botão de etiquetas de endereços;</b>
+          <strong>16-Botão de etiquetas de endereços;</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>17-Botão de lista de email;</b>
+          <strong>17-Botão de lista de email;</strong>
         </p>
       </div>
 
@@ -113,59 +116,62 @@ function CustomerRegistration() {
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-10 px-4">
         <p className="text-sm">
-          <b>Guia Cadastro</b>
+          <strong>Guia Cadastro</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Endereços – </b> Cadastro de endereços adicionais ( endereço
-          de entrega e cobrança) Para adição e alteração seguir passos da Guia
+          <strong>Guia Endereços – </strong> Cadastro de endereços adicionais (
+          endereço de entrega e cobrança) Para adição e alteração seguir passos
+          da Guia cadastro.
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Contatos – </strong> Cadastro de responsáveis pela
+          empresa cliente. Para adição e alteração seguir passos da Guia
           cadastro.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Contatos – </b> Cadastro de responsáveis pela empresa cliente.
-          Para adição e alteração seguir passos da Guia cadastro.
+          <strong>Guia Dados Adicionais – </strong> Cadastro de observações,
+          conta bancária, email para uso de envio de Nf-e. Para adição e
+          alteração seguir passos da Guia cadastro.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Dados Adicionais – </b> Cadastro de observações, conta
-          bancária, email para uso de envio de Nf-e. Para adição e alteração
-          seguir passos da Guia cadastro.
+          <strong>Guia Requisitos</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Requisitos</b>
+          <strong>Guia Observações</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Observações</b>
+          <strong>Guia Histórico – </strong> Cadastro de informações do cliente
+          , LOG referente a troca de informações com cliente. Para adição e
+          alteração seguir passos da Guia cadastro.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Histórico – </b> Cadastro de informações do cliente , LOG
-          referente a troca de informações com cliente. Para adição e alteração
-          seguir passos da Guia cadastro.
+          <strong>Guia Financeiro – </strong> Guia com dados dos títulos a
+          receber do cliente.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Financeiro – </b> Guia com dados dos títulos a receber do
+          <strong>Guia Produção – </strong>Guia com dados de produtos em
+          produção.
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Pedidos – </strong> Guia com lista de pedidos já
+          realizados pelo cliente.
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Contratos</strong>
+        </p>
+        <p className="text-sm pt-1">
+          <strong>Guia Cotação – </strong>Guia com Cotações abertas pelo
           cliente.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Produção – </b>Guia com dados de produtos em produção.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Pedidos – </b> Guia com lista de pedidos já realizados pelo
-          cliente.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Contratos</b>
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia Cotação – </b>Guia com Cotações abertas pelo cliente.
-        </p>
-        <p className="text-sm pt-1">
-          <b>Guia ABC de Produtos– </b> Guia com lista de produtos já
+          <strong>Guia ABC de Produtos– </strong> Guia com lista de produtos já
           adquiridos.
         </p>
         <p className="text-sm pt-1">
-          <b>Guia índice de preços</b>
+          <strong>Guia índice de preços</strong>
         </p>
         <p className="text-sm pt-1">
-          <b>Guia Emails</b>
+          <strong>Guia Emails</strong>
         </p>
       </div>
     </div>

@@ -10,7 +10,8 @@ function CheckControl() {
       </h1>
       <p className="mt-10 text-base sm:text-base lg:max-w-4xl">
         Para maior controle dos cheques recebidos em suas operações financeiras,
-        o sistema <b>Maxcontrol</b>, oferece o modulo de cadastro de cheques.
+        o sistema <strong>Maxcontrol</strong>, oferece o modulo de cadastro de
+        cheques.
       </p>
       <p className="my-4 text-base sm:text-base lg:max-w-4xl">
         O cheque ainda é um meio de pagamento muito usual no Brasil para as
@@ -54,45 +55,46 @@ function CheckControl() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Botão Incluir</b> - Criar novo lançamento;
+            <strong>Botão Incluir</strong> - Criar novo lançamento;
           </li>
           <li>
-            <b>Botão Alterar</b> - Alterar / Editar um lançamento salvo;
+            <strong>Botão Alterar</strong> - Alterar / Editar um lançamento
+            salvo;
           </li>
           <li>
-            <b>Botão cancelar / Excluir</b> - Botão mult opções, remove baixa de
-            título, cancela lançamento, exclui lançamento;
+            <strong>Botão cancelar / Excluir</strong> - Botão mult opções,
+            remove baixa de título, cancela lançamento, exclui lançamento;
           </li>
           <li>
-            <b>Botão Salvar</b> - Salvar / Gravar lançamento;
+            <strong>Botão Salvar</strong> - Salvar / Gravar lançamento;
           </li>
           <li>
-            <b>Botão Cancelar / Abortar</b> - Cancela a operação vigente, ignora
-            alterações e retorno ao estado anterior;
+            <strong>Botão Cancelar / Abortar</strong> - Cancela a operação
+            vigente, ignora alterações e retorno ao estado anterior;
           </li>
           <li>
-            <b>Botões de navegação</b>;
+            <strong>Botões de navegação</strong>;
           </li>
           <li>
-            <b>Botão de Consulta</b> - relatórios;
+            <strong>Botão de Consulta</strong> - relatórios;
           </li>
           <li>
-            <b>Botão de Cadastros</b> - Acesso rápido ao cadastros de Entidades
-            (clientes / fornecedores / transportadora/ Diversos);
+            <strong>Botão de Cadastros</strong> - Acesso rápido ao cadastros de
+            Entidades (clientes / fornecedores / transportadora/ Diversos);
           </li>
           <li>
-            <b>Botão de Cad. De Bancos e contas</b>;
+            <strong>Botão de Cad. De Bancos e contas</strong>;
           </li>
           <li>
-            <b>Botão de lançamento de contas a receber</b>;
+            <strong>Botão de lançamento de contas a receber</strong>;
           </li>
           <li>
-            <b>Botão de lançamento de contas a pagar</b>.
+            <strong>Botão de lançamento de contas a pagar</strong>.
           </li>
         </ul>
       </div>
       <h2 className="mt-10 text-base sm:text-2xl font-bold text-slate-900">
-      Consultas e Relatórios
+        Consultas e Relatórios
       </h2>
       <img
         className="w-full max-w-3xl object-contain py-6"

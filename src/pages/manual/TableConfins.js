@@ -22,7 +22,7 @@ function TableConfins() {
           </ul>
           <div>
             <span>
-              <b> CST Operações de Saída</b>
+              <strong> CST Operações de Saída</strong>
             </span>
             <h2>
               <strong> CST – Operações de Saídas</strong>
@@ -45,7 +45,7 @@ function TableConfins() {
                   </td>
                   <td>
                     <p>
-                      <b>Incidência</b>
+                      <strong>Incidência</strong>
                       <strong> do Imposto</strong>
                     </p>
                   </td>
@@ -253,7 +253,7 @@ function TableConfins() {
           </div>
           <div>
             <span>
-              <b> CST Operações de Entrada</b>
+              <strong> CST Operações de Entrada</strong>
             </span>
             <h2>
               <strong>
@@ -854,7 +854,7 @@ function TableConfins() {
           </div>
           <div>
             <span>
-              <b> NOTAS</b>
+              <strong> NOTAS</strong>
             </span>
             <h3>
               <strong>NOTAS:</strong>

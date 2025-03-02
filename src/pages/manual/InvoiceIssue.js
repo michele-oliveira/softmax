@@ -13,30 +13,30 @@ function InvoiceIssue() {
         Software MaxControl.
       </p>
       <p className="mx-4 my-6 text-sm sm:text-base lg:max-w-4xl">
-        Sistema <b>ERP</b> Sob Medida para sua empresa.
+        Sistema <strong>ERP</strong> Sob Medida para sua empresa.
       </p>
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Emissão de Nota fiscal eletrônica:</b> Módulo integrado, rápido e
-            fácil.
+            <strong>Emissão de Nota fiscal eletrônica:</strong> Módulo
+            integrado, rápido e fácil.
           </li>
           <li>
-            <b>Melhorar a gestão de seu negócio.</b>
+            <strong>Melhorar a gestão de seu negócio.</strong>
           </li>
           <li>
-            <b>Otimização das atividades administrativas.</b>
+            <strong>Otimização das atividades administrativas.</strong>
           </li>
           <li>
-            <b>PCP – Planejamento e Controle de produção.</b>
+            <strong>PCP – Planejamento e Controle de produção.</strong>
           </li>
           <li>
-            <b>MRP – Planejamento dos recursos de Manufatura.</b>
+            <strong>MRP – Planejamento dos recursos de Manufatura.</strong>
           </li>
           <li>
-            <b>
+            <strong>
               Mais praticidade, desempenho e produtividade para sua empresa.
-            </b>
+            </strong>
           </li>
         </ul>
       </div>
@@ -48,30 +48,33 @@ function InvoiceIssue() {
         Nosso software visa a integração de todos os departamentos da Empresa.
       </p>
       <p className="my-4 text-sm sm:text-base lg:max-w-4xl">
-        Com o <b>Emissor de Nota fiscal mais simples e rápido do Mercado</b>,
-        focado na facilidade de uso. Dispensamos o departamento de Faturamento.
+        Com o{" "}
+        <strong>Emissor de Nota fiscal mais simples e rápido do Mercado</strong>
+        , focado na facilidade de uso. Dispensamos o departamento de
+        Faturamento.
       </p>
       <p className="my-4 text-sm sm:text-base lg:max-w-4xl">
-        Uma vez cadastrado e estabelecido <b>o perfil tributário</b> da empresa,
-        o próprio departamento de vendas após emitir o pedido, e esse:
+        Uma vez cadastrado e estabelecido <strong>o perfil tributário</strong>{" "}
+        da empresa, o próprio departamento de vendas após emitir o pedido, e
+        esse:
       </p>
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className=" list-inside text-base space-y-2">
           <li>
-            <b>Análise Crítica:</b> Com liberação, validação e assinatura digital do
-        Gerente.
+            <strong>Análise Crítica:</strong> Com liberação, validação e
+            assinatura digital do Gerente.
           </li>
           <li>
-            <b>Aprovado pelo Financeiro:</b> Onde se analisa o perfil do Cliente e
-        limite de crédito.
+            <strong>Aprovado pelo Financeiro:</strong> Onde se analisa o perfil
+            do Cliente e limite de crédito.
           </li>
           <li>
-            <b>Romaneio:</b> Liberação dos itens pela expedição.
+            <strong>Romaneio:</strong> Liberação dos itens pela expedição.
           </li>
         </ul>
       </div>
       <p className="my-4 text-sm sm:text-base lg:max-w-4xl">
-        <b>Com apenas um clique se emite a Nota Fiscal.</b>
+        <strong>Com apenas um clique se emite a Nota Fiscal.</strong>
       </p>
       <p className="my-4 text-sm sm:text-base lg:max-w-4xl">
         Nosso processo fabril visa o controle da Produção e gerenciamento das
@@ -86,8 +89,7 @@ function InvoiceIssue() {
         produtos.
       </p>
       <p className="my-4 text-sm sm:text-base lg:max-w-4xl">
-        Acesse nosso site:{" "}
-        <a href="/">www.softmax.com.br</a>
+        Acesse nosso site: <a href="/">www.softmax.com.br</a>
       </p>
       <p className="my-4 text-sm sm:text-base lg:max-w-4xl">
         Para Emitir NF-e a Partir do pedido de venda, clica no ícone. A tela a
@@ -113,13 +115,13 @@ function InvoiceIssue() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ul className="list-disc list-inside text-base space-y-2">
           <li>
-            <b>Baixa de estoque</b>
+            <strong>Baixa de estoque</strong>
           </li>
           <li>
-            <b>Financeiro</b>
+            <strong>Financeiro</strong>
           </li>
           <li>
-            <b>Comissão</b>
+            <strong>Comissão</strong>
           </li>
         </ul>
       </div>
