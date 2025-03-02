@@ -18,7 +18,6 @@ function ProductionMap() {
         className="w-full max-w-3xl object-contain"
         src={mapa1}
         alt="Mapa de produção"
-        alt="Mapa de produção"
       />
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <p className="text-base pb-5">
