@@ -44,8 +44,9 @@ function RegisterOperations() {
           </li>
           <li>
             O primeiro passo é inserir o <strong>código fiscal CFOP</strong>{" "}
-            referente a operação;{" "}
+            referente à operação;{" "}
           </li>
+
           <li>
             Em seguida adicionar uma <strong>“descrição do CFOP</strong>”
             cadastrado;{" "}
@@ -64,8 +65,7 @@ function RegisterOperations() {
           </li>
           <li>
             Obs.: Depois que é salvo o cadastro, será habilitada a opção de “
-            <strong>(5) Informações complementares Automáticas</strong>”. Saiba
-            mais em “<a href="/">Informações complementares</a>”;
+            <strong>(5) Informações complementares Automáticas</strong>”.;
           </li>
         </ol>
       </div>

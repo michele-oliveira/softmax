@@ -7,4 +7,5 @@ export const ManualTaxPage = {
   TREASURY_DEPARTMENT_WEBSITE:
     "https://www.nfe.fazenda.gov.br/portal/principal.aspx",
   DE_OLHO_NO_IMPOSTO_WEBSITE: "https://deolhonoimposto.ibpt.org.br/",
+  CNAE: "cnae",
 };

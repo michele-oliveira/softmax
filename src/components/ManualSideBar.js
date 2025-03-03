@@ -205,6 +205,10 @@ function ManualSideBar({ selectPage }) {
                       page: ManualMovementsPage.PURCHASE_ORDER,
                     },
                     {
+                      label: "Pedido de compra - Recebimento",
+                      page: ManualMovementsPage.COLLECT_ORDER,
+                    },
+                    {
                       label: "Pedido de venda",
                       page: ManualMovementsPage.SALE_ORDER,
                     },
@@ -318,6 +322,10 @@ function ManualSideBar({ selectPage }) {
                     {
                       label: "De olho no Imposto - Automatizar o processo",
                       page: ManualTaxPage.DE_OLHO_NO_IMPOSTO_WEBSITE,
+                    },
+                    {
+                      label: "CNAE",
+                      page: ManualTaxPage.CNAE,
                     },
                   ].map((item) => (
                     <li key={item.label}>

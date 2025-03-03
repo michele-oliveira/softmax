@@ -6,7 +6,7 @@ import pagamento4 from "../../assets/images/manual/mov_fn_cp010.png";
 import pagamento5 from "../../assets/images/manual/mov_fn_cp011.png";
 import pagamento6 from "../../assets/images/manual/mov_fn_cp012.png";
 import pagamento7 from "../../assets/images/manual/mov_fn_cp013.png";
-import pagamento8 from "../../assets/images/manual/mov_FN_CH_Consul.png";
+import pagamento8 from "../../assets/images/manual/mov_FN_CP_Consul.png";
 
 function AccountsPayable() {
   return (
@@ -369,12 +369,12 @@ function AccountsPayable() {
         </h4>
         <img
           className="w-full max-w-3xl object-contain py-4"
-          src={pagamento6}
+          src={pagamento7}
           alt="Contas a pagar"
         />
         <img
           className="w-full max-w-3xl object-contain py-4"
-          src={pagamento7}
+          src={pagamento6}
           alt="Contas a pagar"
         />
         <div className="flex flex-col items-start w-full max-w-3xl text-left">

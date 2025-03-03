@@ -1,5 +1,6 @@
 export const ManualMovementsPage = {
   PURCHASE_ORDER: "purchase_order",
+  COLLECT_ORDER: "collect_order",
   SALE_ORDER: "sale_order",
   PRODUCTION_ORDER: "production_order",
   PRODUCTION_MAP: "production_map",

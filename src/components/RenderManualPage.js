@@ -21,16 +21,18 @@ import BankingControl from "../pages/manual/BankingControl";
 import Acronyms from "../pages/manual/Acronyms";
 import Taxpayer from "../pages/manual/Taxpayer";
 import TableCST from "../pages/manual/TableCST";
-import { ManualPage } from "../enums/manual/ManualPage";
-import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
-import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
-import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 import AccountsPayable from "../pages/manual/AccountsPayable";
 import AccountsReceivable from "../pages/manual/AccountsReceivable";
 import TableConfins from "../pages/manual/TableConfins";
 import SuspensionExemption from "../pages/manual/SuspensionExemption";
 import TaxDepartment from "../pages/manual/TaxDepartment";
 import RomaneioSale from "../pages/manual/RomaneioSale";
+import OrderCollect from "../pages/manual/OrderCollect";
+import { ManualPage } from "../enums/manual/ManualPage";
+import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
+import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
+import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
+import Cnae from "../pages/manual/Cnae";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -56,6 +58,8 @@ function RenderManualPage({ page }) {
       return <RegisterOperations />;
     case ManualMovementsPage.PURCHASE_ORDER:
       return <OrderPurchase />;
+    case ManualMovementsPage.COLLECT_ORDER:
+      return <OrderCollect />;
     case ManualMovementsPage.SALE_ORDER:
       return <OrderSales />;
     case ManualMovementsPage.PRODUCTION_ORDER:
@@ -90,6 +94,8 @@ function RenderManualPage({ page }) {
       return <SuspensionExemption />;
     case ManualTaxPage.FINANCE_DEPARTMENT:
       return <TaxDepartment />;
+    case ManualTaxPage.CNAE:
+      return <Cnae />;
     default:
       return <h1>Page not found</h1>;
   }
