@@ -45,12 +45,12 @@ function Cnae() {
         25/06/2010, entrou em vigor em dezembro de 2010.
       </p>
       <h2 className="my-10 text-base sm:text-base font-semibold text-slate-900">
-        Fonte:
+        Fonte:{" "}
         <a
           href="http://subcomissaocnae.fazenda.pr.gov.br/modules/conteudo/conteudo.php?conteudo=1"
           className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
-        > 
-           http://subcomissaocnae.fazenda.pr.gov.br/modules/conteudo/conteudo.php?conteudo=1
+        >
+          http://subcomissaocnae.fazenda.pr.gov.br/modules/conteudo/conteudo.php?conteudo=1
         </a>
       </h2>
     </div>
