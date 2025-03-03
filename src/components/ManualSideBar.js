@@ -7,6 +7,7 @@ import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 
 import softmax from "../assets/images/softmax1.png";
+import { Link } from "react-router-dom";
 
 function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -89,13 +90,15 @@ function ManualSideBar({ selectPage }) {
           <nav className="mt-16 px-4 py-2 h-[calc(100vh-16rem)] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
             <ul>
               <li>
-                <button
-                  className={`p-3 text-lg font-bold hover:bg-gray-700 rounded flex items-center gap-2 ${
-                    isOpen ? "w-full" : "w-fit"
-                  }`}
-                >
-                  <FiHome className="text-white text-2xl" />
-                </button>
+                <Link to="/">
+                  <button
+                    className={`p-3 text-lg font-bold hover:bg-gray-700 rounded flex items-center gap-2 ${
+                      isOpen ? "w-full" : "w-fit"
+                    }`}
+                  >
+                    <FiHome className="text-white text-2xl" />
+                  </button>
+                </Link>
               </li>
 
               <div

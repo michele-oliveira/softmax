@@ -28,9 +28,11 @@ function Nav() {
               <FaArrowRight />
             </button>
           </Link>
-          <button className="bg-transparent border-2 border-white text-white py-2 px-8 rounded-full hover:bg-white hover:text-slate-900 transition duration-300">
-            Saiba mais
-          </button>
+          <Link to="/modules">
+            <button className="bg-transparent border-2 border-white text-white py-2 px-8 rounded-full hover:bg-white hover:text-slate-900 transition duration-300">
+              Saiba mais
+            </button>
+          </Link>
         </div>
       </div>
     </div>
