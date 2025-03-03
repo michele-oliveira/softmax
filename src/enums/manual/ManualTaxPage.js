@@ -7,5 +7,4 @@ export const ManualTaxPage = {
   FINANCE_DEPARTMENT: "finance_department",
   TAX_DEPARTMENT: "tax_department",
   PROCESS_AUTOMATE: "process_automate",
-  
 };
