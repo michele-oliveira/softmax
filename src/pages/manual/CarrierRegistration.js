@@ -29,8 +29,11 @@ function CarrierRegistration() {
           transportadora
         </p>
         <p className="text-base pt-2">
-          <strong>3- RG </strong> - Preencher com o CNPJ \ CPF do dono da
+          <strong>3- RG </strong> - Preencher com o RG do dono da
           transportadora
+        </p>
+        <p className="text-base pt-2">
+          <strong>Pessoa: </strong> - Identificar pessoa física ou jurídica para o correto preenchimento das demais informações
         </p>
         <p className="text-base pt-2">
           <strong>4- Nome </strong> - Preencher com o nome da Transportadora
@@ -56,13 +59,13 @@ function CarrierRegistration() {
           transportadora
         </p>
         <p className="text-base pt-2">
-          <strong>Crédito em Carteira </strong> - ?
+          <strong>Crédito em Carteira </strong> - Preencher com o valor de pagamento antecipado
         </p>
         <p className="text-base pt-2">
-          <strong>Placa </strong> - ?
+          <strong>Placa </strong> - Preencher placa do veículo associado ao crédito em carteira
         </p>
         <p className="text-base pt-2">
-          <strong>UF </strong> - ?
+          <strong>UF </strong> - Preencher com o estado da atribuição de crédito em carteira. 
         </p>
       </div>
     </div>

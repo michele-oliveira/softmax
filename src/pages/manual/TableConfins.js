@@ -17,7 +17,7 @@ function TableConfins() {
             digitais da Escrituração Fiscal Digital (EFD);e – emissão de Nota
             Fiscal Eletrônica – Nfe.
           </p>
-          <div className="py-2 lg:px-4 lg:py-2">
+          <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
             <ul className="max-w-3xl mx-auto list-disc list-inside space-y-4 text-left text-gray-700">
               <li>CST Operações de Saída</li>
               <li>CST Operações de Entrada</li>

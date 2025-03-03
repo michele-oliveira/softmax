@@ -9,5 +9,6 @@ export const ManualMovementsPage = {
   CONTROL_CHECK: "control_check",
   CONTROL_BANKING: "control_banking",
   ACCOUNTS_PAYABLE: "accounts_payable",
-  ACCOUNTS_RECEIVABLE: "accounts_receivable"
+  ACCOUNTS_RECEIVABLE: "accounts_receivable",
+  ROMANEIO_SALE: "romaneio_sale",
 };

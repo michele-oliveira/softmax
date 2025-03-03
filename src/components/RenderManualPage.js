@@ -30,6 +30,7 @@ import AccountsReceivable from "../pages/manual/AccountsReceivable";
 import TableConfins from "../pages/manual/TableConfins";
 import SuspensionExemption from "../pages/manual/SuspensionExemption";
 import TaxDepartment from "../pages/manual/TaxDepartment";
+import RomaneioSale from "../pages/manual/RomaneioSale";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -75,6 +76,8 @@ function RenderManualPage({ page }) {
       return <AccountsPayable />;
     case ManualMovementsPage.ACCOUNTS_RECEIVABLE:
       return <AccountsReceivable />;
+    case ManualMovementsPage.ROMANEIO_SALE:
+      return <RomaneioSale />;
     case ManualPage.ACRONYMS:
       return <Acronyms />;
     case ManualTaxPage.TAX_DEPARTMENT:

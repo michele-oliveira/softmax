@@ -131,31 +131,42 @@ function RegisterOperations() {
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
         <ol className="list-decimal list-inside text-base space-y-2">
           <li>
-            <strong>Guia Cadastro</strong>
+            <strong>Guia Cadastro</strong> -Registra e gerencia informações
+            essenciais como clientes, produtos e fornecedores.
           </li>
           <li>
-            <strong>Guia Lista de CFOPs cadastradas</strong>
+            <strong>Guia Lista de CFOPs cadastradas</strong> - Exibe os CFOPs
+            registrados no sistema para consulta e gerenciamento.
           </li>
           <li>
-            <strong>Guia Lista de CFOPs GERAL</strong>
+            <strong>Guia Lista de CFOPs GERAL</strong> - Apresenta todos os
+            CFOPs disponíveis para seleção e cadastro.
           </li>
           <li>
-            <strong>Guia ICMS por estado</strong>
+            <strong>Guia ICMS por estado</strong> - Detalha as alíquotas de ICMS
+            por estado, garantindo a correta tributação.
           </li>
           <li>
-            <strong>Guia código de enquadramento de IPI</strong>
+            <strong>Guia código de enquadramento de IPI</strong> - Gerencia os
+            códigos de enquadramento do IPI conforme a categoria fiscal dos
+            produtos.
           </li>
           <li>
-            <strong>Guia CFOP por Cliente / Produto</strong>{" "}
+            <strong>Guia CFOP por Cliente / Produto</strong> - Configura e
+            visualiza os CFOPs específicos por cliente ou produto.
           </li>
           <li>
-            <strong>Guia CST de ICMS</strong>{" "}
+            <strong>Guia CST de ICMS</strong> - Apresenta os CSTs de ICMS para
+            aplicar as regras tributárias nas operações.
           </li>
           <li>
-            <strong>Guia CST de IPI</strong>
+            <strong>Guia CST de IPI</strong> - Exibe os CSTs de IPI para o
+            correto enquadramento fiscal dos produtos.
           </li>
           <li>
-            <strong>Guia CST de PIS/Cofins</strong>{" "}
+            <strong>Guia CST de PIS/Cofins</strong> - Apresenta os CSTs de
+            PIS/Cofins, garantindo a aplicação correta das alíquotas e regras
+            fiscais.
           </li>
         </ol>
       </div>

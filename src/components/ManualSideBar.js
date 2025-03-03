@@ -23,9 +23,17 @@ function ManualSideBar({ selectPage }) {
   };
 
   const handleSelectPage = (page) => {
-    setIsOpen(false);
-    selectPage(page);
-    window.scroll({ top: 0, behavior: "smooth" });
+    if (page) {
+      setIsOpen(false);
+      if (page.startsWith("http")) {
+        window.open(page, "_blank");
+      } else {
+        selectPage(page);
+        window.scroll({ top: 0, behavior: "smooth" });
+      }
+    } else {
+      console.error("parameter 'page' must be provided");
+    }
   };
 
   useEffect(() => {
@@ -198,6 +206,10 @@ function ManualSideBar({ selectPage }) {
                       page: ManualMovementsPage.SALE_ORDER,
                     },
                     {
+                      label: "Pedido de venda - Romaneio",
+                      page: ManualMovementsPage.ROMANEIO_SALE,
+                    },
+                    {
                       label: "Empenho / Ordem de Produção",
                       page: ManualMovementsPage.PRODUCTION_ORDER,
                     },
@@ -285,11 +297,7 @@ function ManualSideBar({ selectPage }) {
                     {
                       label:
                         "Suspensão, Diferimento, Isenção, Incidência e Não Incidência",
-                        page: ManualTaxPage.SUSPENSION_EXEMPTION,
-                    },
-                    {
-                      label: "Manual do Contribuinte",
-                      page: {},
+                      page: ManualTaxPage.SUSPENSION_EXEMPTION,
                     },
                     {
                       label:
@@ -298,7 +306,7 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Sefaz",
-                      page: {},
+                      page: ManualTaxPage.TREASURY_DEPARTMENT_WEBSITE,
                     },
                     {
                       label: "De olho no Imposto",
@@ -306,7 +314,7 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "De olho no Imposto - Automatizar o processo",
-                      page: {},
+                      page: ManualTaxPage.DE_OLHO_NO_IMPOSTO_WEBSITE,
                     },
                   ].map((item) => (
                     <li key={item.label}>
@@ -320,12 +328,6 @@ function ManualSideBar({ selectPage }) {
                     </li>
                   ))}
                 </ul>
-
-                <li className="p-3 text-lg text-nowrap font-bold hover:bg-gray-700 rounded">
-                  <button type="button" className="w-full text-left">
-                    Programas
-                  </button>
-                </li>
               </div>
             </ul>
           </nav>

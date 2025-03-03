@@ -26,7 +26,7 @@ function RegisterMP() {
       />
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
-        <ol className="list-disc list-inside text-base space-y-2">
+        <ol className="list-decimal list-inside text-base space-y-2">
           <li>
             <strong>Botão Incluir -</strong> Criar Novo lançamento;
           </li>
@@ -81,7 +81,7 @@ function RegisterMP() {
       />
 
       <div className="flex flex-col items-start w-full max-w-3xl text-left py-6">
-        <ol className="list-disc list-inside text-base space-y-2">
+        <ol className="list-decimal list-inside text-base space-y-2">
           <li>
             <strong>Guia Cadastro – </strong> Cadastro principal com dados da
             Matéria-prima;
