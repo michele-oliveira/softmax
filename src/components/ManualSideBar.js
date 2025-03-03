@@ -285,7 +285,7 @@ function ManualSideBar({ selectPage }) {
                     {
                       label:
                         "Suspensão, Diferimento, Isenção, Incidência e Não Incidência",
-                      page: {},
+                        page: ManualTaxPage.SUSPENSION_EXEMPTION,
                     },
                     {
                       label: "Manual do Contribuinte",
@@ -302,7 +302,7 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "De olho no Imposto",
-                      page: {},
+                      page: ManualTaxPage.FINANCE_DEPARTMENT,
                     },
                     {
                       label: "De olho no Imposto - Automatizar o processo",

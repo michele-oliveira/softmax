@@ -28,6 +28,8 @@ import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 import AccountsPayable from "../pages/manual/AccountsPayable";
 import AccountsReceivable from "../pages/manual/AccountsReceivable";
 import TableConfins from "../pages/manual/TableConfins";
+import SuspensionExemption from "../pages/manual/SuspensionExemption";
+import TaxDepartment from "../pages/manual/TaxDepartment";
 
 function RenderManualPage({ page }) {
   switch (page) {
@@ -81,6 +83,10 @@ function RenderManualPage({ page }) {
       return <TableCST />;
     case ManualTaxPage.TABLE_SOURCE:
       return <TableConfins />;
+    case ManualTaxPage.SUSPENSION_EXEMPTION:
+      return <SuspensionExemption />;
+    case ManualTaxPage.FINANCE_DEPARTMENT:
+      return <TaxDepartment />;
     default:
       return <h1>Page not found</h1>;
   }
