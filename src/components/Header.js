@@ -29,7 +29,7 @@ function Header() {
           <Link to="/modules">
             <h1 className="hover:text-green-400 cursor-pointer">Módulos</h1>
           </Link>
-          <Link href="/manual" target="_blank">
+          <Link href="/manual" target="_blank" rel="noopener noreferrer">
             <h1 className="hover:text-green-400 cursor-pointer">
               Manual do sistema
             </h1>
@@ -51,7 +51,7 @@ function Header() {
         <Link to="/modules">
           <h1 className="hover:text-green-400 cursor-pointer">Módulos</h1>
         </Link>
-        <Link to="/manual" target="_blank">
+        <Link to="/manual" target="_blank" rel="noopener noreferrer">
           <h1 className="hover:text-green-400 cursor-pointer">
             Manual do sistema
           </h1>
