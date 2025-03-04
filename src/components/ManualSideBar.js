@@ -10,7 +10,7 @@ import softmax from "../assets/images/softmax1.png";
 import { Link } from "react-router-dom";
 
 function ManualSideBar({ selectPage }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [openSubmenus, setOpenSubmenus] = useState({});
 
   const sidebarRef = useRef(null);
