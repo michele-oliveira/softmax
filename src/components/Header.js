@@ -6,6 +6,8 @@ import softmax from "../assets/images/softmax1.png";
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const closeMenu = () => setIsMenuOpen(false);
+
   return (
     <div className="w-full px-4 py-2 bg-slate-900 text-white md:h-32">
       <div className="flex justify-between items-center h-16 md:h-full">
@@ -29,7 +31,7 @@ function Header() {
           <Link to="/modules">
             <h1 className="hover:text-green-400 cursor-pointer">Módulos</h1>
           </Link>
-          <Link href="/manual" target="_blank" rel="noopener noreferrer">
+          <Link to="/manual" target="_blank" rel="noopener noreferrer">
             <h1 className="hover:text-green-400 cursor-pointer">
               Manual do sistema
             </h1>
@@ -51,7 +53,12 @@ function Header() {
         <Link to="/modules">
           <h1 className="hover:text-green-400 cursor-pointer">Módulos</h1>
         </Link>
-        <Link to="/manual" target="_blank" rel="noopener noreferrer">
+        <Link
+          to="/manual"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >
           <h1 className="hover:text-green-400 cursor-pointer">
             Manual do sistema
           </h1>
