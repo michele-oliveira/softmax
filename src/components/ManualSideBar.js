@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
-import { FiHome, FiMenu, FiChevronDown } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { FiHome, FiMenu, FiChevronDown } from "react-icons/fi";
 import { ManualPage } from "../enums/manual/ManualPage";
 import { ManualRegisterPage } from "../enums/manual/ManualRegisterPage";
 import { ManualMovementsPage } from "../enums/manual/ManualMovementsPage";
 import { ManualTaxPage } from "../enums/manual/ManualTaxPage";
 
 import softmax from "../assets/images/softmax1.png";
-import { Link } from "react-router-dom";
 
 function ManualSideBar({ selectPage }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,6 @@ function ManualSideBar({ selectPage }) {
         window.open(page, "_blank");
       } else {
         selectPage(page);
-        window.scroll({ top: 0, behavior: "smooth" });
       }
     } else {
       console.error("parameter 'page' must be provided");
@@ -147,7 +146,7 @@ function ManualSideBar({ selectPage }) {
                     },
                     {
                       label: "Cadastro de Produtos PA",
-                      page: ManualRegisterPage.PRODUCT_REGISTRATION,
+                      page: ManualRegisterPage.PA_REGISTRATION,
                     },
                     {
                       label: "Cadastro de Produtos MP",

@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <ModulesPage />,
   },
   {
-    path: "/manual",
+    path: "/manual/*",
     element: <Manual />,
   },
   {

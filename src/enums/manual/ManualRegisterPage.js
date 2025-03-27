@@ -1,11 +1,11 @@
 export const ManualRegisterPage = {
-  CUSTOMER_REGISTRATION: "customer_registration",
-  SUPPLIER_REGISTRATION: "supplier_registration",
-  CARRIER_REGISTRATION: "carrier_registration",
-  PRODUCT_DEVELOPMENT: "product_development",
-  PRODUCT_REGISTRATION: "product_registration",
-  MP_REGISTRATION: "mp_registration",
-  SA_REGISTRATION: "sa_registration",
-  OM_REGISTRATION: "om_registration",
-  OPERATIONS_REGISTRATION: "operations_registration"
+  CUSTOMER_REGISTRATION: "/cadastro_clientes",
+  SUPPLIER_REGISTRATION: "/cadastro_fornecedores",
+  CARRIER_REGISTRATION: "/cadastro_transportadoras",
+  PA_REGISTRATION: "/cadastro_produtos_pa",
+  MP_REGISTRATION: "/cadastro_produtos_mp",
+  SA_REGISTRATION: "/cadastro_produtos_sa",
+  OM_REGISTRATION: "/cadastro_produtos_om",
+  PRODUCT_DEVELOPMENT: "/desenvolvimento_produtos",
+  OPERATIONS_REGISTRATION: "/cadastro_operacoes_fiscais",
 };
